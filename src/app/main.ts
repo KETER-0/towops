@@ -11,6 +11,7 @@ import { dashboard } from './views/dashboard.ts';
 import { missions } from './views/missions.ts';
 import { mission } from './views/mission.ts';
 import { invoices } from './views/invoices.ts';
+import { paymentsView } from './views/payments.ts';
 import { importView } from './views/import.ts';
 import { trucks } from './views/trucks.ts';
 import { truck } from './views/truck.ts';
@@ -30,6 +31,7 @@ function viewFor(name: string, ctx: Ctx): View {
     case '': return dashboard;
     case 'missions': return ctx.params.length ? mission : missions;
     case 'invoices': return invoices;
+    case 'payments': return paymentsView;
     case 'import': return importView;
     case 'trucks': return ctx.params.length ? truck : trucks;
     case 'debts': return debts;
@@ -42,6 +44,7 @@ const NAV: [string, string, string][] = [
   ['Overview', '', 'Dashboard'],
   ['Billing', 'missions', 'Missions'],
   ['Billing', 'invoices', 'Invoices'],
+  ['Billing', 'payments', 'Payments'],
   ['Billing', 'import', 'Import an order form'],
   ['Fleet', 'trucks', 'Trucks'],
   ['Fleet', 'debts', 'Who owes what'],

@@ -57,6 +57,7 @@ async function shot(page: Page, file: string): Promise<void> {
 const data = loadDataset();
 const ready = data.missions.find((m) => status(m) === 'ready')!;
 const truck = data.trucks[0]!;
+let paidInvoice = '';
 
 try {
   const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 }, acceptDownloads: true });
@@ -65,7 +66,7 @@ try {
   page.on('pageerror', (e) => errors.push(`${page.url()}: ${e.message}`));
 
   const screens: [string, string][] = [
-    ['/', 'Dashboard'], ['/missions', 'Missions'], [`/missions/${ready.id}`, ready.fileRef], ['/invoices', 'Invoices'],
+    ['/', 'Dashboard'], ['/missions', 'Missions'], [`/missions/${ready.id}`, ready.fileRef], ['/invoices', 'Invoices'], ['/payments', 'Payments'],
     ['/import', 'Import an order form'], ['/trucks', 'Trucks'], [`/trucks/${truck.key}`, truck.name], ['/debts', 'Who owes what'],
     ['/data', 'Data model'], ['/data?t=fuelFills', 'Data model'],
   ];
@@ -108,6 +109,12 @@ try {
     assert(pdf.subarray(0, 4).toString() === '%PDF' && pdf.length > 3000, `pdf ${pdf.length} bytes`);
     await page.click('[data-act="paid"]');
     await page.waitForSelector('.badge.paid');
+    paidInvoice = no!;
+  });
+
+  await check('an invoice marked paid shows on the Payments screen', async () => {
+    await open(page, '/payments');
+    assert(paidInvoice && (await page.locator('tbody a', { hasText: paidInvoice }).count()) === 1, `${paidInvoice} not listed`);
   });
 
   await check('adding a fill-up lowers the truck profit by its amount', async () => {
