@@ -27,6 +27,7 @@ TowOps puts each of those gaps on a screen.
 | **Missions** | Every job ordered by an insurer, filterable by status, insurer, month and free text. |
 | **Mission** | The priced lines with their rule visible (`6.50 x 2 x 164 km`), VAT taken out of VAT-included tariffs, the photo checklist, the split between trucks on a shared tow. One click creates the invoice, one click downloads it as a PDF, one click marks it paid. |
 | **Invoices** | Jobs ready to invoice (invoice them all at once), invoices waiting for payment with their age against each insurer's usual delay, and a month-by-month summary. |
+| **Payments** | Every payment that settles a debt, month by month: insurers paying invoices and credit clients paying (money in), fuel stations being paid (money out). Read from the invoices and accounts themselves, never typed twice. |
 | **Trucks** | Per truck and per month: insurer jobs + cash + credit income, minus fuel, charges and salary. 12-month profit chart, fuel log with L/100 km, a wrong odometer reading flagged. |
 | **Import an order form** | Photograph a paper order form: the text is read **on the device** (open-source OCR, no AI service, no upload), the fields are filled, the job is priced from the tariff grid. |
 | **Who owes what** | Credit clients' balances and fuel-station debts, taken minus paid. |
@@ -92,8 +93,8 @@ npm run preview    # http://localhost:4173
 
 ```bash
 npm run typecheck
-npm test           # 17 unit tests: pricing, VAT, truck split, fuel, debts, OCR parsing, data consistency
-npm run build && npm run smoke   # 32 end-to-end checks in Microsoft Edge, including real OCR on the samples
+npm test           # 18 unit tests: pricing, VAT, truck split, fuel, debts, payments, OCR parsing, data consistency
+npm run build && npm run smoke   # 35 end-to-end checks in Microsoft Edge, including real OCR on the samples
 ```
 
 The smoke test also refreshes the screenshots in `docs/screenshots/`.
@@ -103,3 +104,10 @@ Regenerate the demo data, the order-form images and the data-model document:
 ```bash
 npm run data && npm run samples && npm run docs:model
 ```
+
+## Contact
+
+Built by Zouhair Lahlou.
+
+- Email: [zouhurlahlou@gmail.com](mailto:zouhurlahlou@gmail.com)
+- WhatsApp: [+212 605 315 354](https://wa.me/212605315354)

@@ -4,6 +4,7 @@ import type { FuelFill, Mission, Service } from '../src/model/types.ts';
 import { lineTotal, missionTotal, nextInvoiceNo, priceLine, sharesError, status, truckAmounts, vatBreakdown } from '../src/logic/billing.ts';
 import { assignmentOf, consumptions, monthConsumption, truckMonth } from '../src/logic/fleet.ts';
 import { accounts } from '../src/logic/debts.ts';
+import { payments } from '../src/logic/payments.ts';
 import { fixFileRef, parseDate, parseOrder } from '../src/logic/parse-order.ts';
 import { addMonths, lastMonths, truckKey } from '../src/logic/util.ts';
 import { loadDataset } from './load.ts';
@@ -160,4 +161,16 @@ test('fleet profit adds up: net = income - costs, and insurance equals mission t
   }
   const expected = d.missions.filter((m) => m.state !== 'cancelled' && m.incidentDate.startsWith(month)).reduce((x, m) => x + missionTotal(m), 0);
   assert.equal(Math.round(insurance * 100), Math.round(expected * 100));
+});
+
+test('payments list every paid invoice, client payment and station payment, newest first', () => {
+  const d = loadDataset();
+  const p = payments(d);
+  const paid = d.missions.filter((m) => m.state !== 'cancelled' && m.paidDate);
+  assert.equal(p.length, paid.length + d.clientPayments.length + d.stationPayments.length);
+  assert.ok(p.every((x, i) => i === 0 || p[i - 1]!.date >= x.date), 'not newest first');
+  assert.ok(p.every((x) => x.amount > 0), 'amounts are positive, direction gives the sign');
+  const fromInsurers = p.filter((x) => x.kind === 'insurer').reduce((s, x) => s + x.amount, 0);
+  assert.equal(Math.round(fromInsurers * 100), Math.round(paid.reduce((s, m) => s + missionTotal(m), 0) * 100));
+  assert.ok(p.filter((x) => x.direction === 'out').every((x) => x.kind === 'station'));
 });
