@@ -122,6 +122,11 @@ function render(): void {
   lastName = name;
 }
 
+// An unexpected error says so instead of leaving a screen half-drawn or a button silently dead.
+const oops = (): void => toast('Something went wrong. Try again; "Reset demo data" restores the original.');
+window.addEventListener('error', oops);
+window.addEventListener('unhandledrejection', oops);
+
 shell();
 render();
 window.addEventListener('hashchange', render);

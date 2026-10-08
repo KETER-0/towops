@@ -3,6 +3,8 @@
 **From the insurer's order to cash in the bank, and what each truck really earns.**
 A working demo of the back office of a roadside-assistance and towing fleet.
 
+**Live demo: [towops-demo.pages.dev](https://towops-demo.pages.dev)** (no sign-up, runs in your browser)
+
 Everything you see here runs on **invented data**: the company, insurers, customers, plates and amounts are fictional.
 
 ![Dashboard: fleet profit per truck, job-to-cash pipeline, revenue by month and by insurer](docs/screenshots/dashboard.png)
@@ -96,12 +98,18 @@ npm run build
 npm run preview    # http://localhost:4173
 ```
 
+Publish it to Cloudflare Pages (free, static files only; needs `wrangler login` to the account that owns the project):
+
+```bash
+npm run deploy
+```
+
 ## Tests
 
 ```bash
 npm run typecheck
 npm test           # 19 unit tests: pricing, VAT, truck split, fuel, debts, payments, journal, OCR parsing, data consistency
-npm run build && npm run smoke   # 41 end-to-end checks in Microsoft Edge, including real OCR on the samples
+npm run build && npm run smoke   # 42 end-to-end checks in Microsoft Edge, including real OCR on the samples
 ```
 
 The smoke test also refreshes the screenshots in `docs/screenshots/`.

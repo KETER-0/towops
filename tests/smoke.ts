@@ -192,6 +192,15 @@ try {
     await page.waitForFunction((r) => document.querySelector('#main h1')?.textContent === r, ref);
   });
 
+  await check('damaged saved data falls back to the original instead of a blank page', async () => {
+    await open(page, '/missions');
+    await page.evaluate(() => localStorage.setItem('towops-demo-v2', '{"missions":[]}'));
+    await page.reload();
+    await page.waitForSelector('#main h1');
+    const shown = await page.textContent('#main p.sub.num');
+    assert(shown?.startsWith(`${data.missions.length} missions`), `after damage: "${shown}"`);
+  });
+
   await check('reset restores the original data', async () => {
     await open(page, '/missions');
     await page.click('[data-reset]');

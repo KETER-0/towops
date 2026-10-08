@@ -3,6 +3,7 @@
 // "Reset demo". Nothing is ever sent anywhere.
 import type { Dataset } from '../model/types.ts';
 import { DEMO_TODAY } from '../model/types.ts';
+import { DATASET_KEYS } from '../model/keys.ts';
 import type { Log } from '../logic/journal.ts';
 import company from '../../data/company.json';
 import insurers from '../../data/insurers.json';
@@ -30,7 +31,11 @@ const original = (): Dataset => structuredClone({
 function load(): Dataset {
   try {
     const saved = localStorage.getItem(KEY);
-    if (saved) return JSON.parse(saved) as Dataset;
+    if (saved) {
+      const d = JSON.parse(saved) as Dataset;
+      // Damaged or partial: start from the original rather than draw a broken page with no way out.
+      if (DATASET_KEYS.every((k) => k in d) && d.users.length) return d;
+    }
   } catch {
     // Private window or blocked storage: the demo still works, it just forgets on reload.
   }
