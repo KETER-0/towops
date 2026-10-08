@@ -5,7 +5,7 @@ import '@fontsource/barlow-condensed/600.css';
 import '@fontsource/barlow-condensed/700.css';
 import './styles.css';
 import type { Ctx, View } from './view.ts';
-import { getData, isModified, onChange, reset } from './store.ts';
+import { getActor, getData, isModified, onChange, reset, setActor } from './store.ts';
 import { $, esc, toast } from './dom.ts';
 import { dashboard } from './views/dashboard.ts';
 import { missions } from './views/missions.ts';
@@ -17,6 +17,7 @@ import { trucks } from './views/trucks.ts';
 import { truck } from './views/truck.ts';
 import { debts } from './views/debts.ts';
 import { data } from './views/data.ts';
+import { journalView } from './views/journal.ts';
 
 /** #/missions/m00012?x=1 -> screen "missions", params ["m00012"] */
 function route(): { name: string; ctx: Ctx } {
@@ -36,6 +37,7 @@ function viewFor(name: string, ctx: Ctx): View {
     case 'trucks': return ctx.params.length ? truck : trucks;
     case 'debts': return debts;
     case 'data': return data;
+    case 'journal': return journalView;
     default: return dashboard;
   }
 }
@@ -48,6 +50,7 @@ const NAV: [string, string, string][] = [
   ['Billing', 'import', 'Import an order form'],
   ['Fleet', 'trucks', 'Trucks'],
   ['Fleet', 'debts', 'Who owes what'],
+  ['System', 'journal', 'Journal'],
   ['System', 'data', 'Data model'],
 ];
 
@@ -66,6 +69,9 @@ function shell(): void {
         ${groups.map((g) => `<div class="nav-group"><span class="nav-title">${g}</span>${NAV.filter((n) => n[0] === g).map(([, key, label]) => `<a href="#/${key}" data-nav="${key}">${esc(label)}</a>`).join('')}</div>`).join('')}
       </nav>
       <div class="demo-note">
+        <label class="actor">Acting as
+          <select data-actor>${d.users.map((u) => `<option value="${esc(u.id)}"${u.id === getActor() ? ' selected' : ''}>${esc(u.name)}, ${esc(u.role.toLowerCase())}</option>`).join('')}</select>
+        </label>
         <p><strong>Demo with invented data.</strong> The company, insurers, people and amounts are fictional. Your changes stay in this browser.</p>
         <button class="btn small ghost-light" data-reset>Reset demo data</button>
       </div>
@@ -77,6 +83,11 @@ function shell(): void {
     const open = b.getAttribute('aria-expanded') !== 'true';
     b.setAttribute('aria-expanded', String(open));
     document.body.classList.toggle('nav-open', open);
+  });
+  $('[data-actor]').addEventListener('change', (e) => {
+    const id = (e.currentTarget as HTMLSelectElement).value;
+    setActor(id);
+    toast(`Your next changes are signed ${d.users.find((u) => u.id === id)?.name ?? id}`);
   });
   $('[data-reset]').addEventListener('click', () => {
     if (!isModified()) { toast('Nothing to reset: this is the original demo data'); return; }

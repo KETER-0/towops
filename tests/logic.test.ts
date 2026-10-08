@@ -5,6 +5,7 @@ import { lineTotal, missionTotal, nextInvoiceNo, priceLine, sharesError, status,
 import { assignmentOf, consumptions, monthConsumption, truckMonth } from '../src/logic/fleet.ts';
 import { accounts } from '../src/logic/debts.ts';
 import { payments } from '../src/logic/payments.ts';
+import { log } from '../src/logic/journal.ts';
 import { fixFileRef, parseDate, parseOrder } from '../src/logic/parse-order.ts';
 import { addMonths, lastMonths, truckKey } from '../src/logic/util.ts';
 import { loadDataset } from './load.ts';
@@ -173,4 +174,20 @@ test('payments list every paid invoice, client payment and station payment, newe
   const fromInsurers = p.filter((x) => x.kind === 'insurer').reduce((s, x) => s + x.amount, 0);
   assert.equal(Math.round(fromInsurers * 100), Math.round(paid.reduce((s, m) => s + missionTotal(m), 0) * 100));
   assert.ok(p.filter((x) => x.direction === 'out').every((x) => x.kind === 'station'));
+});
+
+test('the seeded journal is signed by known staff, in time order, and matches the missions', () => {
+  const d = loadDataset();
+  const staff = new Set(d.users.map((u) => u.id));
+  assert.ok(d.journal.every((e) => staff.has(e.user)), 'unknown user in the journal');
+  assert.ok(d.journal.every((e, i) => i === 0 || d.journal[i - 1]!.at <= e.at), 'journal not in time order');
+  const count = (action: string, link: string): number => d.journal.filter((e) => e.action === action && e.link === link).length;
+  for (const m of d.missions) {
+    const link = `missions/${m.id}`;
+    assert.equal(count('mission.created', link), 1, `created ${m.id}`);
+    assert.equal(count('invoice.created', link), m.invoiceNo ? 1 : 0, `invoiced ${m.id}`);
+    assert.equal(count('invoice.paid', link), m.paidDate ? 1 : 0, `paid ${m.id}`);
+  }
+  const m = d.missions.find((x) => x.invoiceNo)!;
+  assert.equal(d.journal.find((e) => e.action === 'invoice.created' && e.link === `missions/${m.id}`)!.text, log.invoiced(m).text);
 });

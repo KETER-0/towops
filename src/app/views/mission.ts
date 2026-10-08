@@ -6,6 +6,8 @@ import { day, esc, mad, n2, toast } from '../dom.ts';
 import { pageHead, statusBadge, truckName, truckPlate } from '../ui.ts';
 import { insurerName, isPaid, missionTotal, nextInvoiceNo, status, truckAmounts, vatBreakdown } from '../../logic/billing.ts';
 import { downloadInvoice } from '../invoice-pdf.ts';
+import { log, newestFirst } from '../../logic/journal.ts';
+import { journalRow } from './journal.ts';
 
 const SLOT_LABEL: Record<PhotoSlot, string> = {
   orderForm: 'Order form',
@@ -27,6 +29,7 @@ export const mission: View = {
     const ins = d.insurers.find((i) => i.id === m.insurer);
     const vat = vatBreakdown(m.lines, ins?.vatExempt);
     const parts = truckAmounts(m, d.services);
+    const history = newestFirst(d.journal).filter((e) => e.link === `missions/${m.id}`);
     const s = status(m);
 
     const lines = m.lines.map((l) => {
@@ -105,13 +108,21 @@ export const mission: View = {
           <tbody>${parts.map((p, i) => `<tr><td><a href="#/trucks/${esc(p.truck)}?m=${m.incidentDate.slice(0, 7)}">${esc(truckName(d, p.truck))}</a> <span class="muted">${esc(truckPlate(d, p.truck))}${i === 0 ? ', truck 1' : ''}</span></td><td class="num right">${p.km || ''}</td><td class="num right">${esc(n2(p.amount))}</td></tr>`).join('')}</tbody>
         </table></div>
         <p class="note">This amount appears as insurance income on the truck's own page for ${esc(m.incidentDate.slice(0, 7))}.</p>
+      </section>
+
+      <section class="panel">
+        <h2>History</h2>
+        <div class="table-wrap"><table class="table">
+          <thead><tr><th>When</th><th>Who</th><th>What</th></tr></thead>
+          <tbody>${history.map((e) => journalRow(d, e)).join('') || '<tr><td colspan="3" class="empty">Nothing recorded for this mission yet.</td></tr>'}</tbody>
+        </table></div>
       </section>`;
   },
   bind(root, { params }) {
     const id = params[0];
     root.querySelectorAll<HTMLButtonElement>('[data-photo]').forEach((b) => b.addEventListener('click', () => {
       const slot = b.dataset.photo as PhotoSlot;
-      update((d) => { const m = d.missions.find((x) => x.id === id)!; m.photos[slot] = 1; });
+      update((d) => { const m = d.missions.find((x) => x.id === id)!; m.photos[slot] = 1; return log.photo(m, SLOT_LABEL[slot]); });
       toast(`${SLOT_LABEL[slot]} added`);
     }));
     root.querySelector('[data-act="invoice"]')?.addEventListener('click', () => {
@@ -121,11 +132,12 @@ export const mission: View = {
         no = nextInvoiceNo(d.missions, DEMO_TODAY);
         m.invoiceDate = DEMO_TODAY;
         m.invoiceNo = no;
+        return log.invoiced(m);
       });
       toast(`Invoice ${no} created`);
     });
     root.querySelector('[data-act="paid"]')?.addEventListener('click', () => {
-      update((d) => { d.missions.find((x) => x.id === id)!.paidDate = DEMO_TODAY; });
+      update((d) => { const m = d.missions.find((x) => x.id === id)!; m.paidDate = DEMO_TODAY; return log.paid(m, insurerName(d, m.insurer)); });
       toast('Marked as paid');
     });
     root.querySelector('[data-act="pdf"]')?.addEventListener('click', () => {

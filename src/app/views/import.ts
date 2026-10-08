@@ -6,7 +6,8 @@ import { esc, mad, n2, toast } from '../dom.ts';
 import { pageHead } from '../ui.ts';
 import { readText } from '../ocr.ts';
 import { type ParsedOrder, parseOrder } from '../../logic/parse-order.ts';
-import { missionTotal, priceLine } from '../../logic/billing.ts';
+import { insurerName, missionTotal, priceLine } from '../../logic/billing.ts';
+import { log } from '../../logic/journal.ts';
 
 const sampleUrl = (file: string): string => `${import.meta.env.BASE_URL}samples/${file}`;
 
@@ -99,13 +100,15 @@ export const importView: View = {
         const id = newId('m');
         const get = (k: string): string => String(f.get(k) ?? '').trim();
         update((d) => {
-          d.missions.push({
+          const m: Mission = {
             id, insurer: x.insurer, fileRef: get('fileRef'), orderNo: get('orderNo'), incidentDate: get('incidentDate'),
             insuredName: get('insuredName'), phone: get('phone'), vehiclePlate: get('vehiclePlate'), vehicleModel: get('vehicleModel'),
             event: get('event'), pickup: get('pickup'), destination: get('destination'), truck: x.truck, shares: [], lines: x.lines,
             state: 'in_progress', photos: { orderForm: 1, registration: 0, insurance: 0, vehicle: 0 },
             invoiceDate: null, invoiceNo: null, paidDate: null, supplement: 0, comment: 'Created from a photographed order form.', source: 'photo',
-          });
+          };
+          d.missions.push(m);
+          return log.missionCreated(m, insurerName(d, m.insurer));
         });
         current = null;
         toast('Mission created from the photo');

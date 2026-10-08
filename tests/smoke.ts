@@ -68,7 +68,7 @@ try {
   const screens: [string, string][] = [
     ['/', 'Dashboard'], ['/missions', 'Missions'], [`/missions/${ready.id}`, ready.fileRef], ['/invoices', 'Invoices'], ['/payments', 'Payments'],
     ['/import', 'Import an order form'], ['/trucks', 'Trucks'], [`/trucks/${truck.key}`, truck.name], ['/debts', 'Who owes what'],
-    ['/data', 'Data model'], ['/data?t=fuelFills', 'Data model'],
+    ['/data', 'Data model'], ['/data?t=fuelFills', 'Data model'], ['/invoices?f=all', 'Invoices'], ['/journal', 'Journal'],
   ];
   for (const [hash, h1] of screens) {
     await check(`screen #${hash} renders "${h1}"`, async () => {
@@ -107,6 +107,7 @@ try {
     const { readFileSync } = await import('node:fs');
     const pdf = readFileSync(path!);
     assert(pdf.subarray(0, 4).toString() === '%PDF' && pdf.length > 3000, `pdf ${pdf.length} bytes`);
+    await page.selectOption('[data-actor]', 'u4');
     await page.click('[data-act="paid"]');
     await page.waitForSelector('.badge.paid');
     paidInvoice = no!;
@@ -115,6 +116,31 @@ try {
   await check('an invoice marked paid shows on the Payments screen', async () => {
     await open(page, '/payments');
     assert(paidInvoice && (await page.locator('tbody a', { hasText: paidInvoice }).count()) === 1, `${paidInvoice} not listed`);
+  });
+
+  await check('the journal signs each change with the person acting', async () => {
+    await open(page, '/journal');
+    const top = await page.locator('tbody tr').first().textContent();
+    assert(top?.includes('Hind Lazrak') && top.includes(`Marked ${paidInvoice} as paid`), `top line "${top?.replace(/\s+/g, ' ')}"`);
+    await shot(page, 'journal.png');
+    await open(page, '/journal?u=u3');
+    assert((await page.locator('tbody tr').count()) === 60, 'one person, first page of 60');
+    assert((await page.locator('tbody tr', { hasText: 'Hind Lazrak' }).count()) === 0, 'another person under the Yassir filter');
+    await open(page, `/missions/${ready.id}`);
+    const history = await page.locator('.panel', { hasText: 'History' }).locator('tbody').textContent();
+    assert(history?.includes('Hind Lazrak') && history.includes('Invoiced'), 'mission history');
+  });
+
+  await check('the invoice register finds an invoice and downloads its PDF', async () => {
+    const inv = data.missions.find((m) => m.invoiceNo && m.paidDate)!;
+    await open(page, `/invoices?f=all&q=${inv.invoiceNo}`);
+    assert((await page.locator('tbody tr').count()) === 1, 'search did not narrow to one invoice');
+    const [dl] = await Promise.all([page.waitForEvent('download'), page.click(`[data-pdf="${inv.id}"]`)]);
+    const { readFileSync } = await import('node:fs');
+    const pdf = readFileSync((await dl.path())!);
+    assert(pdf.subarray(0, 4).toString() === '%PDF', 'not a PDF');
+    await open(page, '/invoices?f=all&p=no');
+    assert((await page.locator('tbody .badge.paid').count()) === 0, 'a paid invoice under the Unpaid filter');
   });
 
   await check('adding a fill-up lowers the truck profit by its amount', async () => {

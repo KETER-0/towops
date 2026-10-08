@@ -1,13 +1,15 @@
 import type { View } from '../view.ts';
+import type { FuelFill } from '../../model/types.ts';
 import { DEMO_TODAY } from '../../model/types.ts';
 import { getData, newId, update } from '../store.ts';
 import { day, esc, mad, monthLabel, n0, n1, n2, toast } from '../dom.ts';
 import { monthBars } from '../chart.ts';
-import { CURRENT_MONTH, monthSwitch, pageHead } from '../ui.ts';
+import { CURRENT_MONTH, monthSwitch, pageHead, truckName } from '../ui.ts';
 import { MONTHS } from './trucks.ts';
 import { assignmentOf, consumptions, monthConsumption, truckMonth } from '../../logic/fleet.ts';
 import { insurerName, missionTotal, truckAmounts } from '../../logic/billing.ts';
 import { monthOf, r2 } from '../../logic/util.ts';
+import { log } from '../../logic/journal.ts';
 
 export const truck: View = {
   title: ({ params }) => getData().trucks.find((t) => t.key === params[0])?.name ?? 'Truck',
@@ -118,11 +120,13 @@ export const truck: View = {
       e.preventDefault();
       const f = new FormData(form);
       update((d) => {
-        d.fuelFills.push({
+        const fill: FuelFill = {
           id: newId('f'), truck: params[0]!, station: String(f.get('station')), date: DEMO_TODAY,
           payment: f.get('payment') === 'cash' ? 'cash' : 'credit',
           amount: r2(Number(f.get('amount'))), litres: r2(Number(f.get('litres'))), odometer: Number(f.get('odometer')),
-        });
+        };
+        d.fuelFills.push(fill);
+        return log.fuel(fill, truckName(d, fill.truck));
       });
       toast('Fill-up added: fuel cost and profit updated');
     });

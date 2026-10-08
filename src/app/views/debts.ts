@@ -5,6 +5,7 @@ import { day, esc, mad, toast } from '../dom.ts';
 import { pageHead } from '../ui.ts';
 import { type Account, clientAccounts, stationAccounts } from '../../logic/debts.ts';
 import { r2, sum } from '../../logic/util.ts';
+import { log } from '../../logic/journal.ts';
 
 function table(rows: Account[], kind: 'client' | 'station'): string {
   const body = rows.map((a) => `<tr>
@@ -56,8 +57,12 @@ export const debts: View = {
       const name = String(f.get('name'));
       const amount = r2(Number(f.get('amount')));
       update((d) => {
-        if (form.dataset.pay === 'client') d.clientPayments.push({ id: newId('cp'), client: name, date: DEMO_TODAY, amount });
-        else d.stationPayments.push({ id: newId('sp'), station: name, date: DEMO_TODAY, amount });
+        if (form.dataset.pay === 'client') {
+          d.clientPayments.push({ id: newId('cp'), client: name, date: DEMO_TODAY, amount });
+          return log.clientPayment(name, amount);
+        }
+        d.stationPayments.push({ id: newId('sp'), station: name, date: DEMO_TODAY, amount });
+        return log.stationPayment(name, amount);
       });
       toast(`Payment of ${mad(amount)} recorded`);
     }));

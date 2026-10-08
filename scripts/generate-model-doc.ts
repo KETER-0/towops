@@ -66,6 +66,7 @@ ${er}
 4. **A shared tow splits by kilometres.** Extra trucks get the per-km tow line in proportion to the km they drove; truck 1 keeps the rest, so the parts always add up to the mission total.
 5. **Fuel is measured full tank to full tank.** L/100 km = litres / (odometer - previous odometer) x 100. A reading that goes backwards is flagged and skipped.
 6. **Debts are taken minus paid, per name**, with names matched ignoring case and spacing.
+7. **Every change is journaled.** The one function that changes data requires the change to describe itself, and signs it with the person acting. Journal lines are only ever added.
 
 ## Tables
 

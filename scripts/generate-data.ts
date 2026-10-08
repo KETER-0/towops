@@ -8,11 +8,12 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type {
   Assignment, CashJob, Charge, ClientPayment, Company, CreditJob, Dataset, FuelFill,
-  Insurer, Line, Mission, Service, StationPayment, Truck, TruckShare,
+  Insurer, JournalEntry, Line, Mission, Service, StationPayment, Truck, TruckShare, User,
 } from '../src/model/types.ts';
 import { DEMO_TODAY } from '../src/model/types.ts';
 import { nextInvoiceNo, priceLine, sharesError } from '../src/logic/billing.ts';
 import { addDays, lastMonths, r2, truckKey } from '../src/logic/util.ts';
+import { type Log, log } from '../src/logic/journal.ts';
 
 const OUT = join(dirname(fileURLToPath(import.meta.url)), '..', 'data');
 
@@ -267,12 +268,38 @@ for (const station of STATIONS) {
   }
 }
 
+// ---------- staff and journal ----------
+// Drawn after everything else, so adding the journal left the rest of the data unchanged.
+const users: User[] = [
+  { id: 'u1', name: 'Nora Skalli', role: 'Dispatcher' },
+  { id: 'u2', name: 'Khalid Mouline', role: 'Night dispatcher' },
+  { id: 'u3', name: 'Yassir Bouzidi', role: 'Accountant' },
+  { id: 'u4', name: 'Hind Lazrak', role: 'Manager' },
+];
+const hhmm = (from: number, to: number): string => `${String(between(from, to)).padStart(2, '0')}:${String(between(0, 59)).padStart(2, '0')}`;
+const entries: Omit<JournalEntry, 'id'>[] = [];
+const add = (date: string, time: string, user: string, l: Log): void => { entries.push({ at: `${date}T${time}`, user, ...l }); };
+const insurerOf = (m: Mission): string => insurers.find((i) => i.id === m.insurer)!.name;
+for (const m of missions) {
+  // Orders arrive day and night: the night dispatcher takes those before 08:00 and from 20:00.
+  const time = hhmm(6, 23);
+  add(m.incidentDate, time, time < '08' || time >= '20' ? 'u2' : 'u1', log.missionCreated(m, insurerOf(m)));
+  if (m.invoiceDate) add(m.invoiceDate, hhmm(9, 11), 'u3', log.invoiced(m));
+  if (m.paidDate) add(m.paidDate, hhmm(9, 17), 'u3', log.paid(m, insurerOf(m)));
+}
+for (const p of clientPayments) add(p.date, hhmm(9, 17), 'u3', log.clientPayment(p.client, p.amount));
+for (const p of stationPayments) add(p.date, hhmm(9, 17), 'u4', log.stationPayment(p.station, p.amount));
+const journal: JournalEntry[] = entries
+  .sort((a, b) => a.at.localeCompare(b.at))
+  .map((e, i) => ({ id: `j${String(i + 1).padStart(5, '0')}`, ...e }));
+
 const byDate = <T extends { date: string }>(xs: T[]): T[] => xs.sort((a, b) => a.date.localeCompare(b.date));
 
 const dataset: Dataset = {
   company, insurers, services, trucks, assignments, missions,
   cashJobs: byDate(cashJobs), creditJobs: byDate(creditJobs), clientPayments: byDate(clientPayments),
   charges: byDate(charges), fuelFills: byDate(fuelFills), stationPayments: byDate(stationPayments),
+  users, journal,
 };
 
 mkdirSync(OUT, { recursive: true });

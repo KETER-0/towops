@@ -196,6 +196,39 @@ export interface StationPayment {
   amount: number;
 }
 
+// ---------- People and journal ----------
+
+/** A member of the office staff. The demo has no login: the visitor picks who they act as. */
+export interface User {
+  id: string;
+  name: string;
+  role: string;
+}
+
+/** Every kind of change the app can make. */
+export type Action =
+  | 'mission.created'
+  | 'mission.photo'
+  | 'invoice.created'
+  | 'invoice.paid'
+  | 'payment.client'
+  | 'payment.station'
+  | 'fuel.added';
+
+/** One line of the journal: who changed what, and when. Written by the store on every change, never by hand. */
+export interface JournalEntry {
+  id: string;
+  /** "YYYY-MM-DDTHH:MM" */
+  at: string;
+  /** User id. */
+  user: string;
+  action: Action;
+  /** Plain-language description, frozen when written. */
+  text: string;
+  /** Screen the change concerns, as a route: "missions/m00012", "debts". */
+  link: string;
+}
+
 // ---------- The whole dataset ----------
 
 export interface Dataset {
@@ -211,6 +244,8 @@ export interface Dataset {
   charges: Charge[];
   fuelFills: FuelFill[];
   stationPayments: StationPayment[];
+  users: User[];
+  journal: JournalEntry[];
 }
 
 /** The demo's fixed "today": the fake data is generated up to this day. */

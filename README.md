@@ -26,17 +26,22 @@ TowOps puts each of those gaps on a screen.
 | **Dashboard** | Which trucks made or lost money this month (each truck is a lane: right of the centre line is profit, left is loss). Where the money is stuck: missing photos, not invoiced yet, waiting for payment, late. |
 | **Missions** | Every job ordered by an insurer, filterable by status, insurer, month and free text. |
 | **Mission** | The priced lines with their rule visible (`6.50 x 2 x 164 km`), VAT taken out of VAT-included tariffs, the photo checklist, the split between trucks on a shared tow. One click creates the invoice, one click downloads it as a PDF, one click marks it paid. |
-| **Invoices** | Jobs ready to invoice (invoice them all at once), invoices waiting for payment with their age against each insurer's usual delay, and a month-by-month summary. |
+| **Invoices** | Jobs ready to invoice (invoice them all at once), invoices waiting for payment with their age against each insurer's usual delay, a month-by-month summary, and the register of every invoice ever issued: search by number, insurer, month or payment, PDF on each row. |
 | **Payments** | Every payment that settles a debt, month by month: insurers paying invoices and credit clients paying (money in), fuel stations being paid (money out). Read from the invoices and accounts themselves, never typed twice. |
 | **Trucks** | Per truck and per month: insurer jobs + cash + credit income, minus fuel, charges and salary. 12-month profit chart, fuel log with L/100 km, a wrong odometer reading flagged. |
 | **Import an order form** | Photograph a paper order form: the text is read **on the device** (open-source OCR, no AI service, no upload), the fields are filled, the job is priced from the tariff grid. |
 | **Who owes what** | Credit clients' balances and fuel-station debts, taken minus paid. |
+| **Journal** | Every change, who made it and when: 12 months of history from four invented staff (dispatchers, accountant, manager). Pick who you act as in the sidebar and your own changes are signed with that name. Each mission also shows its own history. |
 | **Data model** | Every table, its fields in plain language, and its first rows. Download the whole dataset as JSON. |
 
 | | |
 |---|---|
 | ![Mission detail](docs/screenshots/mission.png) | ![Truck profit and fuel log](docs/screenshots/truck.png) |
 | ![Order form read by OCR](docs/screenshots/import.png) | ![Data model screen](docs/screenshots/data-model.png) |
+
+Every change is signed by the person who made it:
+
+![Journal: who did what and when](docs/screenshots/journal.png)
 
 It works on a phone as well as on a desk:
 
@@ -55,6 +60,8 @@ Insurers ──orders──> Missions <──priced by── Tariff grid
 Trucks ──> driver assignments, cash jobs, credit jobs, charges, fuel fill-ups
                                           │                    │
                                client payments       station payments
+
+Staff ──signs──> Journal (every change, written by the app itself)
 ```
 
 Truck profit reads its insurance income **from the missions**, so billing and fleet can never disagree. The full model, with every field and an example row per table, is in **[docs/data-model.md](docs/data-model.md)**, and the raw data is in [`data/`](data/).
@@ -71,7 +78,7 @@ Truck profit reads its insurance income **from the missions**, so billing and fl
 | Demo data | A seeded generator ([`scripts/generate-data.ts`](scripts/generate-data.ts)) | Same data on every run, regenerate it to check |
 | Storage in the demo | The visitor's own browser | Try anything; "Reset demo data" restores the original |
 
-A production deployment adds what a real company needs and a demo does not: a Cloudflare Worker API with a SQLite (D1) database, offline-first sync between phone and PC, named accounts with roles, an audit log of every change, and a password gate.
+A production deployment adds what a real company needs and a demo does not: a Cloudflare Worker API with a SQLite (D1) database, offline-first sync between phone and PC, real logins with roles (the demo's "Acting as" picker stands in for them), the journal kept on the server where nobody can edit it, and a password gate.
 
 ## Run it
 
@@ -93,8 +100,8 @@ npm run preview    # http://localhost:4173
 
 ```bash
 npm run typecheck
-npm test           # 18 unit tests: pricing, VAT, truck split, fuel, debts, payments, OCR parsing, data consistency
-npm run build && npm run smoke   # 35 end-to-end checks in Microsoft Edge, including real OCR on the samples
+npm test           # 19 unit tests: pricing, VAT, truck split, fuel, debts, payments, journal, OCR parsing, data consistency
+npm run build && npm run smoke   # 41 end-to-end checks in Microsoft Edge, including real OCR on the samples
 ```
 
 The smoke test also refreshes the screenshots in `docs/screenshots/`.
