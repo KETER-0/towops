@@ -1,0 +1,200 @@
+[
+ {
+  "id": "sp01827",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-06",
+  "amount": 6100
+ },
+ {
+  "id": "sp01838",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-11-09",
+  "amount": 5100
+ },
+ {
+  "id": "sp01849",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-11",
+  "amount": 2300
+ },
+ {
+  "id": "sp01839",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-07",
+  "amount": 2300
+ },
+ {
+  "id": "sp01828",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-09",
+  "amount": 5900
+ },
+ {
+  "id": "sp01850",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-12-13",
+  "amount": 6100
+ },
+ {
+  "id": "sp01851",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-01-09",
+  "amount": 3500
+ },
+ {
+  "id": "sp01840",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-13",
+  "amount": 3600
+ },
+ {
+  "id": "sp01829",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-14",
+  "amount": 3700
+ },
+ {
+  "id": "sp01841",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-08",
+  "amount": 7800
+ },
+ {
+  "id": "sp01852",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-08",
+  "amount": 2000
+ },
+ {
+  "id": "sp01830",
+  "station": "Oasis Station, N13",
+  "date": "2026-02-10",
+  "amount": 3000
+ },
+ {
+  "id": "sp01842",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-10",
+  "amount": 8000
+ },
+ {
+  "id": "sp01853",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-11",
+  "amount": 7000
+ },
+ {
+  "id": "sp01831",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-14",
+  "amount": 2800
+ },
+ {
+  "id": "sp01832",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-06",
+  "amount": 6500
+ },
+ {
+  "id": "sp01843",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-06",
+  "amount": 3800
+ },
+ {
+  "id": "sp01854",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-04-07",
+  "amount": 4600
+ },
+ {
+  "id": "sp01833",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-14",
+  "amount": 7400
+ },
+ {
+  "id": "sp01844",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-15",
+  "amount": 5100
+ },
+ {
+  "id": "sp01855",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-15",
+  "amount": 3700
+ },
+ {
+  "id": "sp01834",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-06",
+  "amount": 6300
+ },
+ {
+  "id": "sp01856",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-06",
+  "amount": 3700
+ },
+ {
+  "id": "sp01845",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-08",
+  "amount": 5500
+ },
+ {
+  "id": "sp01835",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-10",
+  "amount": 3400
+ },
+ {
+  "id": "sp01846",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-11",
+  "amount": 7700
+ },
+ {
+  "id": "sp01857",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-15",
+  "amount": 4600
+ },
+ {
+  "id": "sp01858",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-06",
+  "amount": 2200
+ },
+ {
+  "id": "sp01847",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-08-10",
+  "amount": 4800
+ },
+ {
+  "id": "sp01836",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-11",
+  "amount": 7900
+ },
+ {
+  "id": "sp01848",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-06",
+  "amount": 3800
+ },
+ {
+  "id": "sp01837",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-14",
+  "amount": 3600
+ },
+ {
+  "id": "sp01859",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-14",
+  "amount": 8900
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "id": "cobalt",
+  "name": "Cobalt Assistance",
+  "address": "120 Boulevard Anfa, Casablanca",
+  "taxId": "DEMO-TAX-0101",
+  "vatExempt": false,
+  "paysAfterDays": 45
+ },
+ {
+  "id": "medina",
+  "name": "Medina Assist Services",
+  "address": "8 Avenue Fal Ould Oumeir, Rabat",
+  "taxId": "DEMO-TAX-0202",
+  "vatExempt": false,
+  "paysAfterDays": 60
+ },
+ {
+  "id": "crescent",
+  "name": "Crescent Mutual Assistance",
+  "address": "45 Rue Ibnou Mounir, Casablanca",
+  "taxId": "DEMO-TAX-0303",
+  "vatExempt": false,
+  "paysAfterDays": 75
+ },
+ {
+  "id": "horizon",
+  "name": "Horizon Road Cover",
+  "address": "17 Avenue Mohammed V, Tangier",
+  "taxId": "DEMO-TAX-0404",
+  "vatExempt": false,
+  "paysAfterDays": 50
+ },
+ {
+  "id": "kestrel",
+  "name": "Kestrel Travel Assist",
+  "address": "3 Quai Perrache, Lyon, France",
+  "taxId": "FR-DEMO-0505",
+  "vatExempt": true,
+  "paysAfterDays": 35
+ }
+]

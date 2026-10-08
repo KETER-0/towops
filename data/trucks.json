@@ -1,0 +1,32 @@
+[
+ {
+  "key": "3104d12",
+  "plate": "3104-D-12",
+  "model": "Iveco Daily 70C flatbed",
+  "name": "Flatbed 1"
+ },
+ {
+  "key": "7728h33",
+  "plate": "7728-H-33",
+  "model": "Renault Midlum flatbed",
+  "name": "Flatbed 2"
+ },
+ {
+  "key": "15062b7",
+  "plate": "15062-B-7",
+  "model": "Mercedes Atego flatbed",
+  "name": "Flatbed 3"
+ },
+ {
+  "key": "908e41",
+  "plate": "908-E-41",
+  "model": "DAF LF heavy wrecker",
+  "name": "Heavy 1"
+ },
+ {
+  "key": "22417w18",
+  "plate": "22417-W-18",
+  "model": "Isuzu NPR flatbed",
+  "name": "Flatbed 4"
+ }
+]

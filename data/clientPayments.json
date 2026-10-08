@@ -1,0 +1,296 @@
+[
+ {
+  "id": "cp01816",
+  "client": "Fleet Services Meknes",
+  "date": "2025-11-19",
+  "amount": 1950
+ },
+ {
+  "id": "cp01807",
+  "client": "Auto Ecole Nour",
+  "date": "2025-11-24",
+  "amount": 5300
+ },
+ {
+  "id": "cp01787",
+  "client": "Transports Zitoun",
+  "date": "2025-11-30",
+  "amount": 1250
+ },
+ {
+  "id": "cp01778",
+  "client": "Garage Atlas Motors",
+  "date": "2025-12-02",
+  "amount": 1600
+ },
+ {
+  "id": "cp01808",
+  "client": "Auto Ecole Nour",
+  "date": "2025-12-15",
+  "amount": 3250
+ },
+ {
+  "id": "cp01797",
+  "client": "Saiss Car Rental",
+  "date": "2025-12-20",
+  "amount": 1400
+ },
+ {
+  "id": "cp01779",
+  "client": "Garage Atlas Motors",
+  "date": "2025-12-24",
+  "amount": 350
+ },
+ {
+  "id": "cp01798",
+  "client": "Saiss Car Rental",
+  "date": "2026-01-03",
+  "amount": 1750
+ },
+ {
+  "id": "cp01788",
+  "client": "Transports Zitoun",
+  "date": "2026-01-06",
+  "amount": 2300
+ },
+ {
+  "id": "cp01817",
+  "client": "Fleet Services Meknes",
+  "date": "2026-01-14",
+  "amount": 1300
+ },
+ {
+  "id": "cp01789",
+  "client": "Transports Zitoun",
+  "date": "2026-01-18",
+  "amount": 950
+ },
+ {
+  "id": "cp01780",
+  "client": "Garage Atlas Motors",
+  "date": "2026-01-29",
+  "amount": 2250
+ },
+ {
+  "id": "cp01818",
+  "client": "Fleet Services Meknes",
+  "date": "2026-02-06",
+  "amount": 3200
+ },
+ {
+  "id": "cp01809",
+  "client": "Auto Ecole Nour",
+  "date": "2026-02-15",
+  "amount": 1550
+ },
+ {
+  "id": "cp01810",
+  "client": "Auto Ecole Nour",
+  "date": "2026-02-20",
+  "amount": 1650
+ },
+ {
+  "id": "cp01819",
+  "client": "Fleet Services Meknes",
+  "date": "2026-02-21",
+  "amount": 2650
+ },
+ {
+  "id": "cp01799",
+  "client": "Saiss Car Rental",
+  "date": "2026-02-22",
+  "amount": 1100
+ },
+ {
+  "id": "cp01781",
+  "client": "Garage Atlas Motors",
+  "date": "2026-02-23",
+  "amount": 1950
+ },
+ {
+  "id": "cp01790",
+  "client": "Transports Zitoun",
+  "date": "2026-03-14",
+  "amount": 2400
+ },
+ {
+  "id": "cp01800",
+  "client": "Saiss Car Rental",
+  "date": "2026-03-15",
+  "amount": 2050
+ },
+ {
+  "id": "cp01820",
+  "client": "Fleet Services Meknes",
+  "date": "2026-03-23",
+  "amount": 850
+ },
+ {
+  "id": "cp01811",
+  "client": "Auto Ecole Nour",
+  "date": "2026-03-31",
+  "amount": 3600
+ },
+ {
+  "id": "cp01801",
+  "client": "Saiss Car Rental",
+  "date": "2026-04-10",
+  "amount": 1500
+ },
+ {
+  "id": "cp01791",
+  "client": "Transports Zitoun",
+  "date": "2026-04-14",
+  "amount": 350
+ },
+ {
+  "id": "cp01782",
+  "client": "Garage Atlas Motors",
+  "date": "2026-04-16",
+  "amount": 1150
+ },
+ {
+  "id": "cp01783",
+  "client": "Garage Atlas Motors",
+  "date": "2026-04-18",
+  "amount": 1200
+ },
+ {
+  "id": "cp01812",
+  "client": "Auto Ecole Nour",
+  "date": "2026-04-30",
+  "amount": 3250
+ },
+ {
+  "id": "cp01821",
+  "client": "Fleet Services Meknes",
+  "date": "2026-05-11",
+  "amount": 3750
+ },
+ {
+  "id": "cp01792",
+  "client": "Transports Zitoun",
+  "date": "2026-05-14",
+  "amount": 1150
+ },
+ {
+  "id": "cp01802",
+  "client": "Saiss Car Rental",
+  "date": "2026-05-23",
+  "amount": 350
+ },
+ {
+  "id": "cp01822",
+  "client": "Fleet Services Meknes",
+  "date": "2026-05-25",
+  "amount": 4500
+ },
+ {
+  "id": "cp01793",
+  "client": "Transports Zitoun",
+  "date": "2026-06-06",
+  "amount": 850
+ },
+ {
+  "id": "cp01803",
+  "client": "Saiss Car Rental",
+  "date": "2026-06-07",
+  "amount": 2050
+ },
+ {
+  "id": "cp01804",
+  "client": "Saiss Car Rental",
+  "date": "2026-06-14",
+  "amount": 1300
+ },
+ {
+  "id": "cp01823",
+  "client": "Fleet Services Meknes",
+  "date": "2026-06-17",
+  "amount": 5900
+ },
+ {
+  "id": "cp01784",
+  "client": "Garage Atlas Motors",
+  "date": "2026-06-20",
+  "amount": 4600
+ },
+ {
+  "id": "cp01785",
+  "client": "Garage Atlas Motors",
+  "date": "2026-07-03",
+  "amount": 2800
+ },
+ {
+  "id": "cp01794",
+  "client": "Transports Zitoun",
+  "date": "2026-07-07",
+  "amount": 150
+ },
+ {
+  "id": "cp01813",
+  "client": "Auto Ecole Nour",
+  "date": "2026-07-10",
+  "amount": 2000
+ },
+ {
+  "id": "cp01824",
+  "client": "Fleet Services Meknes",
+  "date": "2026-07-16",
+  "amount": 1000
+ },
+ {
+  "id": "cp01805",
+  "client": "Saiss Car Rental",
+  "date": "2026-07-31",
+  "amount": 1450
+ },
+ {
+  "id": "cp01795",
+  "client": "Transports Zitoun",
+  "date": "2026-08-01",
+  "amount": 1450
+ },
+ {
+  "id": "cp01786",
+  "client": "Garage Atlas Motors",
+  "date": "2026-08-05",
+  "amount": 2550
+ },
+ {
+  "id": "cp01814",
+  "client": "Auto Ecole Nour",
+  "date": "2026-08-11",
+  "amount": 650
+ },
+ {
+  "id": "cp01815",
+  "client": "Auto Ecole Nour",
+  "date": "2026-09-08",
+  "amount": 700
+ },
+ {
+  "id": "cp01796",
+  "client": "Transports Zitoun",
+  "date": "2026-09-14",
+  "amount": 2150
+ },
+ {
+  "id": "cp01825",
+  "client": "Fleet Services Meknes",
+  "date": "2026-09-18",
+  "amount": 2600
+ },
+ {
+  "id": "cp01806",
+  "client": "Saiss Car Rental",
+  "date": "2026-09-21",
+  "amount": 300
+ },
+ {
+  "id": "cp01826",
+  "client": "Fleet Services Meknes",
+  "date": "2026-09-22",
+  "amount": 1250
+ }
+]

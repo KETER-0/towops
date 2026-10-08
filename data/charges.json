@@ -1,0 +1,922 @@
+[
+ {
+  "id": "ch00925",
+  "truck": "7728h33",
+  "date": "2025-10-01",
+  "category": "Washing",
+  "amount": 100,
+  "note": ""
+ },
+ {
+  "id": "ch00944",
+  "truck": "15062b7",
+  "date": "2025-10-02",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch00956",
+  "truck": "908e41",
+  "date": "2025-10-05",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch00945",
+  "truck": "15062b7",
+  "date": "2025-10-11",
+  "category": "Oil change",
+  "amount": 468,
+  "note": ""
+ },
+ {
+  "id": "ch00906",
+  "truck": "3104d12",
+  "date": "2025-10-26",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch00907",
+  "truck": "3104d12",
+  "date": "2025-10-28",
+  "category": "Oil change",
+  "amount": 670,
+  "note": ""
+ },
+ {
+  "id": "ch00926",
+  "truck": "7728h33",
+  "date": "2025-10-29",
+  "category": "Oil change",
+  "amount": 653,
+  "note": ""
+ },
+ {
+  "id": "ch01018",
+  "truck": "908e41",
+  "date": "2025-11-02",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch00972",
+  "truck": "3104d12",
+  "date": "2025-11-10",
+  "category": "Repair",
+  "amount": 3800,
+  "note": "Hydraulic hose"
+ },
+ {
+  "id": "ch01773",
+  "truck": "3104d12",
+  "date": "2025-11-10",
+  "category": "Insurance",
+  "amount": 9600,
+  "note": "Annual policy"
+ },
+ {
+  "id": "ch01005",
+  "truck": "15062b7",
+  "date": "2025-11-11",
+  "category": "Washing",
+  "amount": 100,
+  "note": ""
+ },
+ {
+  "id": "ch01020",
+  "truck": "908e41",
+  "date": "2025-11-11",
+  "category": "Tyres",
+  "amount": 1600,
+  "note": ""
+ },
+ {
+  "id": "ch01019",
+  "truck": "908e41",
+  "date": "2025-11-13",
+  "category": "Oil change",
+  "amount": 1349,
+  "note": ""
+ },
+ {
+  "id": "ch00970",
+  "truck": "3104d12",
+  "date": "2025-11-28",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch00971",
+  "truck": "3104d12",
+  "date": "2025-11-29",
+  "category": "Oil change",
+  "amount": 483,
+  "note": ""
+ },
+ {
+  "id": "ch00989",
+  "truck": "7728h33",
+  "date": "2025-11-29",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch01069",
+  "truck": "15062b7",
+  "date": "2025-12-06",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01036",
+  "truck": "3104d12",
+  "date": "2025-12-09",
+  "category": "Oil change",
+  "amount": 558,
+  "note": ""
+ },
+ {
+  "id": "ch01071",
+  "truck": "15062b7",
+  "date": "2025-12-15",
+  "category": "Repair",
+  "amount": 1600,
+  "note": "Brake pads"
+ },
+ {
+  "id": "ch01083",
+  "truck": "908e41",
+  "date": "2025-12-16",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch01070",
+  "truck": "15062b7",
+  "date": "2025-12-22",
+  "category": "Oil change",
+  "amount": 478,
+  "note": ""
+ },
+ {
+  "id": "ch01053",
+  "truck": "7728h33",
+  "date": "2025-12-27",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch01035",
+  "truck": "3104d12",
+  "date": "2025-12-28",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch01099",
+  "truck": "3104d12",
+  "date": "2026-01-04",
+  "category": "Repair",
+  "amount": 2200,
+  "note": "Brake pads"
+ },
+ {
+  "id": "ch01153",
+  "truck": "908e41",
+  "date": "2026-01-04",
+  "category": "Repair",
+  "amount": 3500,
+  "note": "Hydraulic hose"
+ },
+ {
+  "id": "ch01136",
+  "truck": "15062b7",
+  "date": "2026-01-06",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01098",
+  "truck": "3104d12",
+  "date": "2026-01-09",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01774",
+  "truck": "7728h33",
+  "date": "2026-01-10",
+  "category": "Insurance",
+  "amount": 9600,
+  "note": "Annual policy"
+ },
+ {
+  "id": "ch01138",
+  "truck": "15062b7",
+  "date": "2026-01-11",
+  "category": "Repair",
+  "amount": 3000,
+  "note": "Hydraulic hose"
+ },
+ {
+  "id": "ch01137",
+  "truck": "15062b7",
+  "date": "2026-01-12",
+  "category": "Oil change",
+  "amount": 630,
+  "note": ""
+ },
+ {
+  "id": "ch01118",
+  "truck": "7728h33",
+  "date": "2026-01-14",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01151",
+  "truck": "908e41",
+  "date": "2026-01-21",
+  "category": "Washing",
+  "amount": 90,
+  "note": ""
+ },
+ {
+  "id": "ch01152",
+  "truck": "908e41",
+  "date": "2026-01-26",
+  "category": "Oil change",
+  "amount": 1394,
+  "note": ""
+ },
+ {
+  "id": "ch01231",
+  "truck": "22417w18",
+  "date": "2026-02-08",
+  "category": "Oil change",
+  "amount": 677,
+  "note": ""
+ },
+ {
+  "id": "ch01204",
+  "truck": "15062b7",
+  "date": "2026-02-09",
+  "category": "Repair",
+  "amount": 2000,
+  "note": "Winch cable"
+ },
+ {
+  "id": "ch01203",
+  "truck": "15062b7",
+  "date": "2026-02-10",
+  "category": "Washing",
+  "amount": 100,
+  "note": ""
+ },
+ {
+  "id": "ch01230",
+  "truck": "22417w18",
+  "date": "2026-02-12",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch01189",
+  "truck": "7728h33",
+  "date": "2026-02-16",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch01172",
+  "truck": "3104d12",
+  "date": "2026-02-18",
+  "category": "Repair",
+  "amount": 3400,
+  "note": "Winch cable"
+ },
+ {
+  "id": "ch01170",
+  "truck": "3104d12",
+  "date": "2026-02-20",
+  "category": "Washing",
+  "amount": 90,
+  "note": ""
+ },
+ {
+  "id": "ch01216",
+  "truck": "908e41",
+  "date": "2026-02-20",
+  "category": "Washing",
+  "amount": 90,
+  "note": ""
+ },
+ {
+  "id": "ch01171",
+  "truck": "3104d12",
+  "date": "2026-02-22",
+  "category": "Oil change",
+  "amount": 611,
+  "note": ""
+ },
+ {
+  "id": "ch01190",
+  "truck": "7728h33",
+  "date": "2026-02-23",
+  "category": "Oil change",
+  "amount": 567,
+  "note": ""
+ },
+ {
+  "id": "ch01249",
+  "truck": "3104d12",
+  "date": "2026-03-02",
+  "category": "Oil change",
+  "amount": 584,
+  "note": ""
+ },
+ {
+  "id": "ch01278",
+  "truck": "15062b7",
+  "date": "2026-03-09",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01775",
+  "truck": "15062b7",
+  "date": "2026-03-10",
+  "category": "Insurance",
+  "amount": 9600,
+  "note": "Annual policy"
+ },
+ {
+  "id": "ch01307",
+  "truck": "22417w18",
+  "date": "2026-03-15",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01279",
+  "truck": "15062b7",
+  "date": "2026-03-16",
+  "category": "Tyres",
+  "amount": 4000,
+  "note": ""
+ },
+ {
+  "id": "ch01248",
+  "truck": "3104d12",
+  "date": "2026-03-19",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01291",
+  "truck": "908e41",
+  "date": "2026-03-23",
+  "category": "Oil change",
+  "amount": 1261,
+  "note": ""
+ },
+ {
+  "id": "ch01290",
+  "truck": "908e41",
+  "date": "2026-03-26",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01292",
+  "truck": "908e41",
+  "date": "2026-03-26",
+  "category": "Repair",
+  "amount": 1800,
+  "note": "Clutch"
+ },
+ {
+  "id": "ch01308",
+  "truck": "22417w18",
+  "date": "2026-03-26",
+  "category": "Oil change",
+  "amount": 543,
+  "note": ""
+ },
+ {
+  "id": "ch01265",
+  "truck": "7728h33",
+  "date": "2026-03-30",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01367",
+  "truck": "908e41",
+  "date": "2026-04-06",
+  "category": "Repair",
+  "amount": 400,
+  "note": "Winch cable"
+ },
+ {
+  "id": "ch01380",
+  "truck": "22417w18",
+  "date": "2026-04-07",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01353",
+  "truck": "15062b7",
+  "date": "2026-04-14",
+  "category": "Washing",
+  "amount": 110,
+  "note": ""
+ },
+ {
+  "id": "ch01354",
+  "truck": "15062b7",
+  "date": "2026-04-14",
+  "category": "Oil change",
+  "amount": 545,
+  "note": ""
+ },
+ {
+  "id": "ch01319",
+  "truck": "3104d12",
+  "date": "2026-04-17",
+  "category": "Washing",
+  "amount": 90,
+  "note": ""
+ },
+ {
+  "id": "ch01335",
+  "truck": "7728h33",
+  "date": "2026-04-18",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch01336",
+  "truck": "7728h33",
+  "date": "2026-04-20",
+  "category": "Oil change",
+  "amount": 658,
+  "note": ""
+ },
+ {
+  "id": "ch01366",
+  "truck": "908e41",
+  "date": "2026-04-30",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01413",
+  "truck": "7728h33",
+  "date": "2026-05-04",
+  "category": "Oil change",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "ch01394",
+  "truck": "3104d12",
+  "date": "2026-05-05",
+  "category": "Oil change",
+  "amount": 683,
+  "note": ""
+ },
+ {
+  "id": "ch01460",
+  "truck": "22417w18",
+  "date": "2026-05-05",
+  "category": "Washing",
+  "amount": 110,
+  "note": ""
+ },
+ {
+  "id": "ch01443",
+  "truck": "908e41",
+  "date": "2026-05-06",
+  "category": "Oil change",
+  "amount": 1272,
+  "note": ""
+ },
+ {
+  "id": "ch01776",
+  "truck": "908e41",
+  "date": "2026-05-10",
+  "category": "Insurance",
+  "amount": 14800,
+  "note": "Annual policy"
+ },
+ {
+  "id": "ch01395",
+  "truck": "3104d12",
+  "date": "2026-05-12",
+  "category": "Repair",
+  "amount": 2000,
+  "note": "Winch cable"
+ },
+ {
+  "id": "ch01442",
+  "truck": "908e41",
+  "date": "2026-05-13",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch01461",
+  "truck": "22417w18",
+  "date": "2026-05-13",
+  "category": "Repair",
+  "amount": 3400,
+  "note": "Brake pads"
+ },
+ {
+  "id": "ch01412",
+  "truck": "7728h33",
+  "date": "2026-05-15",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01428",
+  "truck": "15062b7",
+  "date": "2026-05-15",
+  "category": "Washing",
+  "amount": 90,
+  "note": ""
+ },
+ {
+  "id": "ch01429",
+  "truck": "15062b7",
+  "date": "2026-05-15",
+  "category": "Oil change",
+  "amount": 512,
+  "note": ""
+ },
+ {
+  "id": "ch01393",
+  "truck": "3104d12",
+  "date": "2026-05-19",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch01415",
+  "truck": "7728h33",
+  "date": "2026-05-22",
+  "category": "Tyres",
+  "amount": 4800,
+  "note": ""
+ },
+ {
+  "id": "ch01414",
+  "truck": "7728h33",
+  "date": "2026-05-28",
+  "category": "Repair",
+  "amount": 2800,
+  "note": "Electrical"
+ },
+ {
+  "id": "ch01522",
+  "truck": "908e41",
+  "date": "2026-06-05",
+  "category": "Tyres",
+  "amount": 1600,
+  "note": ""
+ },
+ {
+  "id": "ch01540",
+  "truck": "22417w18",
+  "date": "2026-06-08",
+  "category": "Oil change",
+  "amount": 569,
+  "note": ""
+ },
+ {
+  "id": "ch01494",
+  "truck": "7728h33",
+  "date": "2026-06-11",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch01521",
+  "truck": "908e41",
+  "date": "2026-06-11",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch01509",
+  "truck": "15062b7",
+  "date": "2026-06-16",
+  "category": "Oil change",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "ch01495",
+  "truck": "7728h33",
+  "date": "2026-06-19",
+  "category": "Oil change",
+  "amount": 665,
+  "note": ""
+ },
+ {
+  "id": "ch01508",
+  "truck": "15062b7",
+  "date": "2026-06-20",
+  "category": "Washing",
+  "amount": 110,
+  "note": ""
+ },
+ {
+  "id": "ch01478",
+  "truck": "3104d12",
+  "date": "2026-06-22",
+  "category": "Washing",
+  "amount": 100,
+  "note": ""
+ },
+ {
+  "id": "ch01479",
+  "truck": "3104d12",
+  "date": "2026-06-24",
+  "category": "Oil change",
+  "amount": 528,
+  "note": ""
+ },
+ {
+  "id": "ch01539",
+  "truck": "22417w18",
+  "date": "2026-06-24",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01541",
+  "truck": "22417w18",
+  "date": "2026-06-28",
+  "category": "Repair",
+  "amount": 700,
+  "note": "Brake pads"
+ },
+ {
+  "id": "ch01556",
+  "truck": "3104d12",
+  "date": "2026-07-03",
+  "category": "Washing",
+  "amount": 70,
+  "note": ""
+ },
+ {
+  "id": "ch01591",
+  "truck": "15062b7",
+  "date": "2026-07-09",
+  "category": "Oil change",
+  "amount": 468,
+  "note": ""
+ },
+ {
+  "id": "ch01603",
+  "truck": "908e41",
+  "date": "2026-07-09",
+  "category": "Washing",
+  "amount": 110,
+  "note": ""
+ },
+ {
+  "id": "ch01618",
+  "truck": "22417w18",
+  "date": "2026-07-10",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch01777",
+  "truck": "22417w18",
+  "date": "2026-07-10",
+  "category": "Insurance",
+  "amount": 9600,
+  "note": "Annual policy"
+ },
+ {
+  "id": "ch01604",
+  "truck": "908e41",
+  "date": "2026-07-12",
+  "category": "Oil change",
+  "amount": 1295,
+  "note": ""
+ },
+ {
+  "id": "ch01772",
+  "truck": "15062b7",
+  "date": "2026-07-14",
+  "category": "Repair",
+  "amount": 18500,
+  "note": "Gearbox rebuild"
+ },
+ {
+  "id": "ch01592",
+  "truck": "15062b7",
+  "date": "2026-07-17",
+  "category": "Repair",
+  "amount": 1200,
+  "note": "Winch cable"
+ },
+ {
+  "id": "ch01557",
+  "truck": "3104d12",
+  "date": "2026-07-20",
+  "category": "Repair",
+  "amount": 2700,
+  "note": "Brake pads"
+ },
+ {
+  "id": "ch01573",
+  "truck": "7728h33",
+  "date": "2026-07-23",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01590",
+  "truck": "15062b7",
+  "date": "2026-07-26",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01619",
+  "truck": "22417w18",
+  "date": "2026-07-28",
+  "category": "Repair",
+  "amount": 2500,
+  "note": "Winch cable"
+ },
+ {
+  "id": "ch01693",
+  "truck": "22417w18",
+  "date": "2026-08-11",
+  "category": "Washing",
+  "amount": 90,
+  "note": ""
+ },
+ {
+  "id": "ch01666",
+  "truck": "15062b7",
+  "date": "2026-08-14",
+  "category": "Oil change",
+  "amount": 618,
+  "note": ""
+ },
+ {
+  "id": "ch01650",
+  "truck": "7728h33",
+  "date": "2026-08-18",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01638",
+  "truck": "3104d12",
+  "date": "2026-08-21",
+  "category": "Washing",
+  "amount": 90,
+  "note": ""
+ },
+ {
+  "id": "ch01676",
+  "truck": "908e41",
+  "date": "2026-08-25",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ },
+ {
+  "id": "ch01665",
+  "truck": "15062b7",
+  "date": "2026-08-26",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01677",
+  "truck": "908e41",
+  "date": "2026-08-26",
+  "category": "Repair",
+  "amount": 800,
+  "note": "Electrical"
+ },
+ {
+  "id": "ch01639",
+  "truck": "3104d12",
+  "date": "2026-08-31",
+  "category": "Oil change",
+  "amount": 518,
+  "note": ""
+ },
+ {
+  "id": "ch01752",
+  "truck": "908e41",
+  "date": "2026-09-02",
+  "category": "Washing",
+  "amount": 80,
+  "note": ""
+ },
+ {
+  "id": "ch01711",
+  "truck": "3104d12",
+  "date": "2026-09-04",
+  "category": "Washing",
+  "amount": 100,
+  "note": ""
+ },
+ {
+  "id": "ch01726",
+  "truck": "7728h33",
+  "date": "2026-09-08",
+  "category": "Repair",
+  "amount": 3100,
+  "note": "Electrical"
+ },
+ {
+  "id": "ch01712",
+  "truck": "3104d12",
+  "date": "2026-09-16",
+  "category": "Oil change",
+  "amount": 583,
+  "note": ""
+ },
+ {
+  "id": "ch01753",
+  "truck": "908e41",
+  "date": "2026-09-16",
+  "category": "Oil change",
+  "amount": 1131,
+  "note": ""
+ },
+ {
+  "id": "ch01771",
+  "truck": "22417w18",
+  "date": "2026-09-18",
+  "category": "Washing",
+  "amount": 100,
+  "note": ""
+ },
+ {
+  "id": "ch01741",
+  "truck": "15062b7",
+  "date": "2026-09-22",
+  "category": "Washing",
+  "amount": 60,
+  "note": ""
+ },
+ {
+  "id": "ch01725",
+  "truck": "7728h33",
+  "date": "2026-09-27",
+  "category": "Washing",
+  "amount": 120,
+  "note": ""
+ }
+]

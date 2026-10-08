@@ -1,0 +1,1090 @@
+[
+ {
+  "id": "cr00896",
+  "truck": "3104d12",
+  "date": "2025-10-01",
+  "client": "Saiss Car Rental",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr00948",
+  "truck": "908e41",
+  "date": "2025-10-02",
+  "client": "Auto Ecole Nour",
+  "amount": 2200,
+  "note": ""
+ },
+ {
+  "id": "cr00933",
+  "truck": "15062b7",
+  "date": "2025-10-10",
+  "client": "Saiss Car Rental",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cr00899",
+  "truck": "3104d12",
+  "date": "2025-10-16",
+  "client": "Auto Ecole Nour",
+  "amount": 1300,
+  "note": ""
+ },
+ {
+  "id": "cr00936",
+  "truck": "15062b7",
+  "date": "2025-10-20",
+  "client": "Transports Zitoun",
+  "amount": 1100,
+  "note": ""
+ },
+ {
+  "id": "cr00935",
+  "truck": "15062b7",
+  "date": "2025-10-21",
+  "client": "Garage Atlas Motors",
+  "amount": 700,
+  "note": ""
+ },
+ {
+  "id": "cr00916",
+  "truck": "7728h33",
+  "date": "2025-10-22",
+  "client": "Transports Zitoun",
+  "amount": 700,
+  "note": ""
+ },
+ {
+  "id": "cr00917",
+  "truck": "7728h33",
+  "date": "2025-10-23",
+  "client": "Auto Ecole Nour",
+  "amount": 1450,
+  "note": ""
+ },
+ {
+  "id": "cr00897",
+  "truck": "3104d12",
+  "date": "2025-10-24",
+  "client": "Fleet Services Meknes",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr00949",
+  "truck": "908e41",
+  "date": "2025-10-27",
+  "client": "Fleet Services Meknes",
+  "amount": 1800,
+  "note": ""
+ },
+ {
+  "id": "cr00898",
+  "truck": "3104d12",
+  "date": "2025-10-30",
+  "client": "Garage Atlas Motors",
+  "amount": 1000,
+  "note": ""
+ },
+ {
+  "id": "cr00915",
+  "truck": "7728h33",
+  "date": "2025-10-30",
+  "client": "Transports Zitoun",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cr00934",
+  "truck": "15062b7",
+  "date": "2025-10-31",
+  "client": "Auto Ecole Nour",
+  "amount": 1250,
+  "note": ""
+ },
+ {
+  "id": "cr00996",
+  "truck": "15062b7",
+  "date": "2025-11-03",
+  "client": "Transports Zitoun",
+  "amount": 1300,
+  "note": ""
+ },
+ {
+  "id": "cr00962",
+  "truck": "3104d12",
+  "date": "2025-11-04",
+  "client": "Transports Zitoun",
+  "amount": 1300,
+  "note": ""
+ },
+ {
+  "id": "cr00980",
+  "truck": "7728h33",
+  "date": "2025-11-06",
+  "client": "Auto Ecole Nour",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr00982",
+  "truck": "7728h33",
+  "date": "2025-11-06",
+  "client": "Auto Ecole Nour",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr01010",
+  "truck": "908e41",
+  "date": "2025-11-08",
+  "client": "Auto Ecole Nour",
+  "amount": 1850,
+  "note": ""
+ },
+ {
+  "id": "cr00964",
+  "truck": "3104d12",
+  "date": "2025-11-10",
+  "client": "Transports Zitoun",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cr00963",
+  "truck": "3104d12",
+  "date": "2025-11-12",
+  "client": "Fleet Services Meknes",
+  "amount": 1100,
+  "note": ""
+ },
+ {
+  "id": "cr00997",
+  "truck": "15062b7",
+  "date": "2025-11-14",
+  "client": "Transports Zitoun",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cr00981",
+  "truck": "7728h33",
+  "date": "2025-11-19",
+  "client": "Saiss Car Rental",
+  "amount": 950,
+  "note": ""
+ },
+ {
+  "id": "cr00998",
+  "truck": "15062b7",
+  "date": "2025-11-20",
+  "client": "Fleet Services Meknes",
+  "amount": 450,
+  "note": ""
+ },
+ {
+  "id": "cr00995",
+  "truck": "15062b7",
+  "date": "2025-11-24",
+  "client": "Saiss Car Rental",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cr00961",
+  "truck": "3104d12",
+  "date": "2025-11-30",
+  "client": "Garage Atlas Motors",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr01061",
+  "truck": "15062b7",
+  "date": "2025-12-12",
+  "client": "Fleet Services Meknes",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr01075",
+  "truck": "908e41",
+  "date": "2025-12-14",
+  "client": "Garage Atlas Motors",
+  "amount": 2100,
+  "note": ""
+ },
+ {
+  "id": "cr01063",
+  "truck": "15062b7",
+  "date": "2025-12-17",
+  "client": "Transports Zitoun",
+  "amount": 1100,
+  "note": ""
+ },
+ {
+  "id": "cr01025",
+  "truck": "3104d12",
+  "date": "2025-12-25",
+  "client": "Auto Ecole Nour",
+  "amount": 650,
+  "note": ""
+ },
+ {
+  "id": "cr01045",
+  "truck": "7728h33",
+  "date": "2025-12-25",
+  "client": "Garage Atlas Motors",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cr01046",
+  "truck": "7728h33",
+  "date": "2025-12-27",
+  "client": "Transports Zitoun",
+  "amount": 650,
+  "note": ""
+ },
+ {
+  "id": "cr01076",
+  "truck": "908e41",
+  "date": "2025-12-27",
+  "client": "Fleet Services Meknes",
+  "amount": 2600,
+  "note": ""
+ },
+ {
+  "id": "cr01062",
+  "truck": "15062b7",
+  "date": "2025-12-28",
+  "client": "Auto Ecole Nour",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cr01026",
+  "truck": "3104d12",
+  "date": "2025-12-29",
+  "client": "Fleet Services Meknes",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cr01027",
+  "truck": "3104d12",
+  "date": "2025-12-29",
+  "client": "Saiss Car Rental",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr01110",
+  "truck": "7728h33",
+  "date": "2026-01-08",
+  "client": "Auto Ecole Nour",
+  "amount": 950,
+  "note": ""
+ },
+ {
+  "id": "cr01111",
+  "truck": "7728h33",
+  "date": "2026-01-10",
+  "client": "Transports Zitoun",
+  "amount": 1300,
+  "note": ""
+ },
+ {
+  "id": "cr01089",
+  "truck": "3104d12",
+  "date": "2026-01-11",
+  "client": "Garage Atlas Motors",
+  "amount": 1500,
+  "note": ""
+ },
+ {
+  "id": "cr01127",
+  "truck": "15062b7",
+  "date": "2026-01-11",
+  "client": "Transports Zitoun",
+  "amount": 950,
+  "note": ""
+ },
+ {
+  "id": "cr01144",
+  "truck": "908e41",
+  "date": "2026-01-11",
+  "client": "Saiss Car Rental",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cr01143",
+  "truck": "908e41",
+  "date": "2026-01-17",
+  "client": "Fleet Services Meknes",
+  "amount": 1900,
+  "note": ""
+ },
+ {
+  "id": "cr01128",
+  "truck": "15062b7",
+  "date": "2026-01-18",
+  "client": "Garage Atlas Motors",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cr01090",
+  "truck": "3104d12",
+  "date": "2026-01-25",
+  "client": "Fleet Services Meknes",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cr01108",
+  "truck": "7728h33",
+  "date": "2026-01-26",
+  "client": "Transports Zitoun",
+  "amount": 1250,
+  "note": ""
+ },
+ {
+  "id": "cr01129",
+  "truck": "15062b7",
+  "date": "2026-01-27",
+  "client": "Auto Ecole Nour",
+  "amount": 750,
+  "note": ""
+ },
+ {
+  "id": "cr01126",
+  "truck": "15062b7",
+  "date": "2026-01-28",
+  "client": "Saiss Car Rental",
+  "amount": 1200,
+  "note": ""
+ },
+ {
+  "id": "cr01109",
+  "truck": "7728h33",
+  "date": "2026-01-31",
+  "client": "Transports Zitoun",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cr01196",
+  "truck": "15062b7",
+  "date": "2026-02-02",
+  "client": "Auto Ecole Nour",
+  "amount": 1200,
+  "note": ""
+ },
+ {
+  "id": "cr01180",
+  "truck": "7728h33",
+  "date": "2026-02-04",
+  "client": "Fleet Services Meknes",
+  "amount": 650,
+  "note": ""
+ },
+ {
+  "id": "cr01164",
+  "truck": "3104d12",
+  "date": "2026-02-08",
+  "client": "Auto Ecole Nour",
+  "amount": 700,
+  "note": ""
+ },
+ {
+  "id": "cr01162",
+  "truck": "3104d12",
+  "date": "2026-02-09",
+  "client": "Transports Zitoun",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cr01163",
+  "truck": "3104d12",
+  "date": "2026-02-09",
+  "client": "Garage Atlas Motors",
+  "amount": 1250,
+  "note": ""
+ },
+ {
+  "id": "cr01222",
+  "truck": "22417w18",
+  "date": "2026-02-09",
+  "client": "Auto Ecole Nour",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr01223",
+  "truck": "22417w18",
+  "date": "2026-02-12",
+  "client": "Auto Ecole Nour",
+  "amount": 1300,
+  "note": ""
+ },
+ {
+  "id": "cr01181",
+  "truck": "7728h33",
+  "date": "2026-02-20",
+  "client": "Fleet Services Meknes",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cr01208",
+  "truck": "908e41",
+  "date": "2026-02-25",
+  "client": "Saiss Car Rental",
+  "amount": 1500,
+  "note": ""
+ },
+ {
+  "id": "cr01272",
+  "truck": "15062b7",
+  "date": "2026-03-06",
+  "client": "Fleet Services Meknes",
+  "amount": 850,
+  "note": ""
+ },
+ {
+  "id": "cr01284",
+  "truck": "908e41",
+  "date": "2026-03-07",
+  "client": "Fleet Services Meknes",
+  "amount": 2000,
+  "note": ""
+ },
+ {
+  "id": "cr01297",
+  "truck": "22417w18",
+  "date": "2026-03-10",
+  "client": "Transports Zitoun",
+  "amount": 1250,
+  "note": ""
+ },
+ {
+  "id": "cr01241",
+  "truck": "3104d12",
+  "date": "2026-03-11",
+  "client": "Auto Ecole Nour",
+  "amount": 1500,
+  "note": ""
+ },
+ {
+  "id": "cr01298",
+  "truck": "22417w18",
+  "date": "2026-03-11",
+  "client": "Auto Ecole Nour",
+  "amount": 850,
+  "note": ""
+ },
+ {
+  "id": "cr01271",
+  "truck": "15062b7",
+  "date": "2026-03-13",
+  "client": "Garage Atlas Motors",
+  "amount": 1350,
+  "note": ""
+ },
+ {
+  "id": "cr01258",
+  "truck": "7728h33",
+  "date": "2026-03-23",
+  "client": "Auto Ecole Nour",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cr01299",
+  "truck": "22417w18",
+  "date": "2026-03-24",
+  "client": "Fleet Services Meknes",
+  "amount": 1300,
+  "note": ""
+ },
+ {
+  "id": "cr01240",
+  "truck": "3104d12",
+  "date": "2026-03-30",
+  "client": "Saiss Car Rental",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr01270",
+  "truck": "15062b7",
+  "date": "2026-03-31",
+  "client": "Transports Zitoun",
+  "amount": 850,
+  "note": ""
+ },
+ {
+  "id": "cr01374",
+  "truck": "22417w18",
+  "date": "2026-04-02",
+  "client": "Fleet Services Meknes",
+  "amount": 950,
+  "note": ""
+ },
+ {
+  "id": "cr01345",
+  "truck": "15062b7",
+  "date": "2026-04-03",
+  "client": "Transports Zitoun",
+  "amount": 800,
+  "note": ""
+ },
+ {
+  "id": "cr01328",
+  "truck": "7728h33",
+  "date": "2026-04-04",
+  "client": "Fleet Services Meknes",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cr01359",
+  "truck": "908e41",
+  "date": "2026-04-08",
+  "client": "Garage Atlas Motors",
+  "amount": 2300,
+  "note": ""
+ },
+ {
+  "id": "cr01360",
+  "truck": "908e41",
+  "date": "2026-04-13",
+  "client": "Fleet Services Meknes",
+  "amount": 1350,
+  "note": ""
+ },
+ {
+  "id": "cr01344",
+  "truck": "15062b7",
+  "date": "2026-04-15",
+  "client": "Fleet Services Meknes",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cr01313",
+  "truck": "3104d12",
+  "date": "2026-04-19",
+  "client": "Transports Zitoun",
+  "amount": 750,
+  "note": ""
+ },
+ {
+  "id": "cr01327",
+  "truck": "7728h33",
+  "date": "2026-04-23",
+  "client": "Fleet Services Meknes",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr01329",
+  "truck": "7728h33",
+  "date": "2026-04-24",
+  "client": "Garage Atlas Motors",
+  "amount": 1450,
+  "note": ""
+ },
+ {
+  "id": "cr01347",
+  "truck": "15062b7",
+  "date": "2026-04-25",
+  "client": "Garage Atlas Motors",
+  "amount": 1500,
+  "note": ""
+ },
+ {
+  "id": "cr01346",
+  "truck": "15062b7",
+  "date": "2026-04-26",
+  "client": "Saiss Car Rental",
+  "amount": 1100,
+  "note": ""
+ },
+ {
+  "id": "cr01373",
+  "truck": "22417w18",
+  "date": "2026-04-29",
+  "client": "Saiss Car Rental",
+  "amount": 1100,
+  "note": ""
+ },
+ {
+  "id": "cr01402",
+  "truck": "7728h33",
+  "date": "2026-05-01",
+  "client": "Fleet Services Meknes",
+  "amount": 1350,
+  "note": ""
+ },
+ {
+  "id": "cr01451",
+  "truck": "22417w18",
+  "date": "2026-05-01",
+  "client": "Fleet Services Meknes",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cr01387",
+  "truck": "3104d12",
+  "date": "2026-05-04",
+  "client": "Fleet Services Meknes",
+  "amount": 850,
+  "note": ""
+ },
+ {
+  "id": "cr01433",
+  "truck": "908e41",
+  "date": "2026-05-04",
+  "client": "Fleet Services Meknes",
+  "amount": 2850,
+  "note": ""
+ },
+ {
+  "id": "cr01420",
+  "truck": "15062b7",
+  "date": "2026-05-06",
+  "client": "Fleet Services Meknes",
+  "amount": 1000,
+  "note": ""
+ },
+ {
+  "id": "cr01386",
+  "truck": "3104d12",
+  "date": "2026-05-13",
+  "client": "Transports Zitoun",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cr01421",
+  "truck": "15062b7",
+  "date": "2026-05-14",
+  "client": "Garage Atlas Motors",
+  "amount": 800,
+  "note": ""
+ },
+ {
+  "id": "cr01434",
+  "truck": "908e41",
+  "date": "2026-05-14",
+  "client": "Auto Ecole Nour",
+  "amount": 1000,
+  "note": ""
+ },
+ {
+  "id": "cr01452",
+  "truck": "22417w18",
+  "date": "2026-05-16",
+  "client": "Saiss Car Rental",
+  "amount": 1500,
+  "note": ""
+ },
+ {
+  "id": "cr01404",
+  "truck": "7728h33",
+  "date": "2026-05-19",
+  "client": "Auto Ecole Nour",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr01403",
+  "truck": "7728h33",
+  "date": "2026-05-20",
+  "client": "Garage Atlas Motors",
+  "amount": 950,
+  "note": ""
+ },
+ {
+  "id": "cr01385",
+  "truck": "3104d12",
+  "date": "2026-05-23",
+  "client": "Garage Atlas Motors",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr01422",
+  "truck": "15062b7",
+  "date": "2026-05-26",
+  "client": "Auto Ecole Nour",
+  "amount": 750,
+  "note": ""
+ },
+ {
+  "id": "cr01485",
+  "truck": "7728h33",
+  "date": "2026-06-01",
+  "client": "Fleet Services Meknes",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cr01486",
+  "truck": "7728h33",
+  "date": "2026-06-11",
+  "client": "Auto Ecole Nour",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cr01501",
+  "truck": "15062b7",
+  "date": "2026-06-13",
+  "client": "Garage Atlas Motors",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cr01487",
+  "truck": "7728h33",
+  "date": "2026-06-20",
+  "client": "Garage Atlas Motors",
+  "amount": 800,
+  "note": ""
+ },
+ {
+  "id": "cr01512",
+  "truck": "908e41",
+  "date": "2026-06-20",
+  "client": "Saiss Car Rental",
+  "amount": 1200,
+  "note": ""
+ },
+ {
+  "id": "cr01470",
+  "truck": "3104d12",
+  "date": "2026-06-21",
+  "client": "Auto Ecole Nour",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cr01500",
+  "truck": "15062b7",
+  "date": "2026-06-22",
+  "client": "Saiss Car Rental",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr01531",
+  "truck": "22417w18",
+  "date": "2026-06-22",
+  "client": "Transports Zitoun",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cr01484",
+  "truck": "7728h33",
+  "date": "2026-06-25",
+  "client": "Transports Zitoun",
+  "amount": 450,
+  "note": ""
+ },
+ {
+  "id": "cr01469",
+  "truck": "3104d12",
+  "date": "2026-06-29",
+  "client": "Garage Atlas Motors",
+  "amount": 800,
+  "note": ""
+ },
+ {
+  "id": "cr01513",
+  "truck": "908e41",
+  "date": "2026-06-29",
+  "client": "Transports Zitoun",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr01532",
+  "truck": "22417w18",
+  "date": "2026-06-29",
+  "client": "Garage Atlas Motors",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cr01597",
+  "truck": "908e41",
+  "date": "2026-07-01",
+  "client": "Transports Zitoun",
+  "amount": 1600,
+  "note": ""
+ },
+ {
+  "id": "cr01549",
+  "truck": "3104d12",
+  "date": "2026-07-05",
+  "client": "Fleet Services Meknes",
+  "amount": 750,
+  "note": ""
+ },
+ {
+  "id": "cr01611",
+  "truck": "22417w18",
+  "date": "2026-07-09",
+  "client": "Transports Zitoun",
+  "amount": 1350,
+  "note": ""
+ },
+ {
+  "id": "cr01612",
+  "truck": "22417w18",
+  "date": "2026-07-13",
+  "client": "Auto Ecole Nour",
+  "amount": 450,
+  "note": ""
+ },
+ {
+  "id": "cr01564",
+  "truck": "7728h33",
+  "date": "2026-07-21",
+  "client": "Saiss Car Rental",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cr01565",
+  "truck": "7728h33",
+  "date": "2026-07-23",
+  "client": "Transports Zitoun",
+  "amount": 1000,
+  "note": ""
+ },
+ {
+  "id": "cr01547",
+  "truck": "3104d12",
+  "date": "2026-07-26",
+  "client": "Fleet Services Meknes",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cr01548",
+  "truck": "3104d12",
+  "date": "2026-07-27",
+  "client": "Fleet Services Meknes",
+  "amount": 1450,
+  "note": ""
+ },
+ {
+  "id": "cr01582",
+  "truck": "15062b7",
+  "date": "2026-07-29",
+  "client": "Auto Ecole Nour",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cr01644",
+  "truck": "7728h33",
+  "date": "2026-08-08",
+  "client": "Transports Zitoun",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cr01629",
+  "truck": "3104d12",
+  "date": "2026-08-15",
+  "client": "Garage Atlas Motors",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cr01687",
+  "truck": "22417w18",
+  "date": "2026-08-15",
+  "client": "Transports Zitoun",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cr01630",
+  "truck": "3104d12",
+  "date": "2026-08-21",
+  "client": "Auto Ecole Nour",
+  "amount": 700,
+  "note": ""
+ },
+ {
+  "id": "cr01658",
+  "truck": "15062b7",
+  "date": "2026-08-22",
+  "client": "Garage Atlas Motors",
+  "amount": 1500,
+  "note": ""
+ },
+ {
+  "id": "cr01686",
+  "truck": "22417w18",
+  "date": "2026-08-23",
+  "client": "Garage Atlas Motors",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cr01670",
+  "truck": "908e41",
+  "date": "2026-08-24",
+  "client": "Garage Atlas Motors",
+  "amount": 2450,
+  "note": ""
+ },
+ {
+  "id": "cr01685",
+  "truck": "22417w18",
+  "date": "2026-08-25",
+  "client": "Saiss Car Rental",
+  "amount": 850,
+  "note": ""
+ },
+ {
+  "id": "cr01659",
+  "truck": "15062b7",
+  "date": "2026-08-26",
+  "client": "Fleet Services Meknes",
+  "amount": 1350,
+  "note": ""
+ },
+ {
+  "id": "cr01628",
+  "truck": "3104d12",
+  "date": "2026-08-28",
+  "client": "Saiss Car Rental",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr01733",
+  "truck": "15062b7",
+  "date": "2026-09-04",
+  "client": "Transports Zitoun",
+  "amount": 1300,
+  "note": ""
+ },
+ {
+  "id": "cr01719",
+  "truck": "7728h33",
+  "date": "2026-09-05",
+  "client": "Transports Zitoun",
+  "amount": 1100,
+  "note": ""
+ },
+ {
+  "id": "cr01744",
+  "truck": "908e41",
+  "date": "2026-09-07",
+  "client": "Transports Zitoun",
+  "amount": 1500,
+  "note": ""
+ },
+ {
+  "id": "cr01718",
+  "truck": "7728h33",
+  "date": "2026-09-08",
+  "client": "Auto Ecole Nour",
+  "amount": 1450,
+  "note": ""
+ },
+ {
+  "id": "cr01703",
+  "truck": "3104d12",
+  "date": "2026-09-11",
+  "client": "Saiss Car Rental",
+  "amount": 650,
+  "note": ""
+ },
+ {
+  "id": "cr01763",
+  "truck": "22417w18",
+  "date": "2026-09-12",
+  "client": "Transports Zitoun",
+  "amount": 1150,
+  "note": ""
+ },
+ {
+  "id": "cr01701",
+  "truck": "3104d12",
+  "date": "2026-09-14",
+  "client": "Auto Ecole Nour",
+  "amount": 850,
+  "note": ""
+ },
+ {
+  "id": "cr01702",
+  "truck": "3104d12",
+  "date": "2026-09-17",
+  "client": "Auto Ecole Nour",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cr01734",
+  "truck": "15062b7",
+  "date": "2026-09-17",
+  "client": "Garage Atlas Motors",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cr01732",
+  "truck": "15062b7",
+  "date": "2026-09-21",
+  "client": "Garage Atlas Motors",
+  "amount": 650,
+  "note": ""
+ },
+ {
+  "id": "cr01760",
+  "truck": "22417w18",
+  "date": "2026-09-21",
+  "client": "Transports Zitoun",
+  "amount": 1450,
+  "note": ""
+ },
+ {
+  "id": "cr01762",
+  "truck": "22417w18",
+  "date": "2026-09-23",
+  "client": "Saiss Car Rental",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cr01700",
+  "truck": "3104d12",
+  "date": "2026-09-24",
+  "client": "Auto Ecole Nour",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cr01761",
+  "truck": "22417w18",
+  "date": "2026-09-27",
+  "client": "Transports Zitoun",
+  "amount": 1300,
+  "note": ""
+ }
+]
