@@ -1,0 +1,135 @@
+// A4 invoice for one mission, built in the browser. jsPDF is loaded only on
+// first use so it never weighs on the first page load. Plain ASCII text only:
+// the built-in PDF fonts have no glyphs for fancy dashes or symbols.
+import type { Dataset, Mission } from '../model/types.ts';
+import { insurerName, missionTotal, vatBreakdown } from '../logic/billing.ts';
+import { day, download, n2 } from './dom.ts';
+
+export async function invoicePdf(d: Dataset, m: Mission): Promise<Blob> {
+  const { jsPDF } = await import('jspdf');
+  const doc = new jsPDF({ unit: 'mm', format: 'a4' });
+  const ins = d.insurers.find((i) => i.id === m.insurer);
+  const vat = vatBreakdown(m.lines, ins?.vatExempt);
+  const L = 18;
+  const R = 192;
+  const ink: [number, number, number] = [38, 42, 46];
+  const muted: [number, number, number] = [110, 116, 122];
+
+  // Watermark first, so everything else prints over it.
+  doc.setTextColor(232, 234, 236);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(78);
+  doc.text('DEMO', 105, 175, { align: 'center', angle: 30 });
+
+  // Amber band: the brand's one colour.
+  doc.setFillColor(242, 169, 0);
+  doc.rect(0, 0, 210, 6, 'F');
+
+  doc.setTextColor(...ink);
+  doc.setFontSize(15);
+  doc.text(d.company.name, L, 22);
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.setTextColor(...muted);
+  [d.company.tagline, d.company.address, d.company.city, `${d.company.phone}   ${d.company.email}`, d.company.taxId]
+    .forEach((t, i) => doc.text(t, L, 28 + i * 4.4));
+
+  doc.setTextColor(...ink);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(22);
+  doc.text('INVOICE', R, 22, { align: 'right' });
+  doc.setFontSize(10);
+  doc.setFont('helvetica', 'normal');
+  [[`No. ${m.invoiceNo ?? '(draft)'}`], [`Date ${day(m.invoiceDate ?? '')}`], [`File ${m.fileRef}`], [`Order ${m.orderNo}`]]
+    .forEach(([t], i) => doc.text(t!, R, 30 + i * 5, { align: 'right' }));
+
+  // Bill to / job
+  let y = 62;
+  doc.setDrawColor(220, 223, 226);
+  doc.line(L, y - 5, R, y - 5);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(9);
+  doc.setTextColor(...muted);
+  doc.text('Bill to', L, y);
+  doc.text('Job', 110, y);
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(...ink);
+  doc.setFontSize(10);
+  doc.text(insurerName(d, m.insurer), L, y + 6);
+  doc.setFontSize(9);
+  doc.text(doc.splitTextToSize(ins?.address ?? '', 80) as string[], L, y + 11);
+  doc.text(ins?.taxId ?? '', L, y + 20);
+  const job = [
+    `Breakdown on ${day(m.incidentDate)}: ${m.event}`,
+    `${m.vehicleModel}, ${m.vehiclePlate} (${m.insuredName})`,
+    `From ${m.pickup}`,
+    `To ${m.destination}`,
+  ];
+  job.forEach((t, i) => doc.text(doc.splitTextToSize(t, 82)[0] as string, 110, y + 6 + i * 5));
+
+  // Lines
+  y = 100;
+  doc.setFillColor(38, 42, 46);
+  doc.rect(L, y - 5, R - L, 8, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(9);
+  doc.text('Code', L + 2, y);
+  doc.text('Description', L + 26, y);
+  doc.text('Rule', 122, y);
+  doc.text('VAT', 160, y, { align: 'right' });
+  doc.text('Total incl. VAT', R - 2, y, { align: 'right' });
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(...ink);
+  y += 9;
+  for (const l of m.lines) {
+    const svc = d.services.find((s) => s.code === l.serviceCode);
+    const rule = svc?.mode === 'km' ? `${n2(l.rate ?? 0)} x ${l.roundTrip} x ${l.quantity} km`
+      : svc?.mode === 'quantity' ? `${n2(l.rate ?? 0)} x ${l.quantity}` : svc?.mode === 'price' ? 'at cost' : 'flat rate';
+    doc.text(l.serviceCode, L + 2, y);
+    doc.text(doc.splitTextToSize(l.label, 72)[0] as string, L + 26, y);
+    doc.text(rule, 122, y);
+    doc.text(`${ins?.vatExempt ? 0 : l.vat}%`, 160, y, { align: 'right' });
+    doc.text(n2(l.total ?? 0), R - 2, y, { align: 'right' });
+    doc.setDrawColor(230, 232, 234);
+    doc.line(L, y + 3, R, y + 3);
+    y += 8;
+  }
+
+  // VAT breakdown and total
+  y += 4;
+  doc.setFontSize(9);
+  doc.setTextColor(...muted);
+  for (const p of vat.parts) {
+    doc.text(`Excl. VAT at ${p.rate}%  ${n2(p.excl)}    VAT ${n2(p.vat)}`, R - 2, y, { align: 'right' });
+    y += 5;
+  }
+  doc.text(`Total excl. VAT  ${n2(vat.excl)}    Total VAT  ${n2(vat.vat)}`, R - 2, y, { align: 'right' });
+  y += 9;
+  doc.setFillColor(242, 169, 0);
+  doc.rect(120, y - 6, R - 120, 10, 'F');
+  doc.setTextColor(...ink);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(12);
+  doc.text('Total due', 123, y);
+  doc.text(`${n2(missionTotal(m))} MAD`, R - 2, y, { align: 'right' });
+  if (ins?.vatExempt) {
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(8);
+    doc.setTextColor(...muted);
+    doc.text('Export of services: no VAT charged.', R - 2, y + 9, { align: 'right' });
+  }
+
+  // Footer
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8);
+  doc.setTextColor(...muted);
+  doc.text(`Payment by bank transfer: ${d.company.bank}`, L, 278);
+  doc.text('Demo document generated by TowOps with fictional data. Not a real invoice.', L, 283);
+
+  return doc.output('blob');
+}
+
+export async function downloadInvoice(d: Dataset, m: Mission): Promise<void> {
+  download(`${m.invoiceNo ?? m.fileRef}.pdf`, await invoicePdf(d, m));
+}

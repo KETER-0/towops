@@ -1,0 +1,2102 @@
+[
+ {
+  "id": "cj00909",
+  "truck": "7728h33",
+  "date": "2025-10-01",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj00911",
+  "truck": "7728h33",
+  "date": "2025-10-05",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj00947",
+  "truck": "908e41",
+  "date": "2025-10-05",
+  "amount": 1050,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00927",
+  "truck": "15062b7",
+  "date": "2025-10-06",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00893",
+  "truck": "3104d12",
+  "date": "2025-10-07",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00910",
+  "truck": "7728h33",
+  "date": "2025-10-07",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj00913",
+  "truck": "7728h33",
+  "date": "2025-10-07",
+  "amount": 500,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00929",
+  "truck": "15062b7",
+  "date": "2025-10-07",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00894",
+  "truck": "3104d12",
+  "date": "2025-10-09",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00931",
+  "truck": "15062b7",
+  "date": "2025-10-11",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00932",
+  "truck": "15062b7",
+  "date": "2025-10-12",
+  "amount": 200,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00891",
+  "truck": "3104d12",
+  "date": "2025-10-14",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00930",
+  "truck": "15062b7",
+  "date": "2025-10-16",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj00912",
+  "truck": "7728h33",
+  "date": "2025-10-19",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj00892",
+  "truck": "3104d12",
+  "date": "2025-10-21",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj00895",
+  "truck": "3104d12",
+  "date": "2025-10-27",
+  "amount": 450,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00908",
+  "truck": "7728h33",
+  "date": "2025-10-28",
+  "amount": 600,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj00914",
+  "truck": "7728h33",
+  "date": "2025-10-29",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00946",
+  "truck": "908e41",
+  "date": "2025-10-30",
+  "amount": 1350,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00928",
+  "truck": "15062b7",
+  "date": "2025-10-31",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01009",
+  "truck": "908e41",
+  "date": "2025-11-01",
+  "amount": 800,
+  "note": ""
+ },
+ {
+  "id": "cj00973",
+  "truck": "7728h33",
+  "date": "2025-11-04",
+  "amount": 200,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj00974",
+  "truck": "7728h33",
+  "date": "2025-11-05",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj00979",
+  "truck": "7728h33",
+  "date": "2025-11-07",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00992",
+  "truck": "15062b7",
+  "date": "2025-11-09",
+  "amount": 550,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj00993",
+  "truck": "15062b7",
+  "date": "2025-11-12",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00976",
+  "truck": "7728h33",
+  "date": "2025-11-14",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01007",
+  "truck": "908e41",
+  "date": "2025-11-14",
+  "amount": 1200,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00990",
+  "truck": "15062b7",
+  "date": "2025-11-15",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00978",
+  "truck": "7728h33",
+  "date": "2025-11-18",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01006",
+  "truck": "908e41",
+  "date": "2025-11-19",
+  "amount": 1350,
+  "note": ""
+ },
+ {
+  "id": "cj01008",
+  "truck": "908e41",
+  "date": "2025-11-19",
+  "amount": 1400,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00991",
+  "truck": "15062b7",
+  "date": "2025-11-20",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj00975",
+  "truck": "7728h33",
+  "date": "2025-11-21",
+  "amount": 250,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj00960",
+  "truck": "3104d12",
+  "date": "2025-11-22",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00957",
+  "truck": "3104d12",
+  "date": "2025-11-23",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj00959",
+  "truck": "3104d12",
+  "date": "2025-11-23",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00958",
+  "truck": "3104d12",
+  "date": "2025-11-24",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj00977",
+  "truck": "7728h33",
+  "date": "2025-11-27",
+  "amount": 600,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj00994",
+  "truck": "15062b7",
+  "date": "2025-11-29",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01059",
+  "truck": "15062b7",
+  "date": "2025-12-03",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01054",
+  "truck": "15062b7",
+  "date": "2025-12-04",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01038",
+  "truck": "7728h33",
+  "date": "2025-12-06",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01058",
+  "truck": "15062b7",
+  "date": "2025-12-07",
+  "amount": 250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01043",
+  "truck": "7728h33",
+  "date": "2025-12-11",
+  "amount": 350,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01073",
+  "truck": "908e41",
+  "date": "2025-12-11",
+  "amount": 1000,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01040",
+  "truck": "7728h33",
+  "date": "2025-12-12",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01037",
+  "truck": "7728h33",
+  "date": "2025-12-13",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01072",
+  "truck": "908e41",
+  "date": "2025-12-14",
+  "amount": 1350,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01039",
+  "truck": "7728h33",
+  "date": "2025-12-18",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj01044",
+  "truck": "7728h33",
+  "date": "2025-12-19",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01060",
+  "truck": "15062b7",
+  "date": "2025-12-20",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01055",
+  "truck": "15062b7",
+  "date": "2025-12-22",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01074",
+  "truck": "908e41",
+  "date": "2025-12-23",
+  "amount": 1100,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01023",
+  "truck": "3104d12",
+  "date": "2025-12-25",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01056",
+  "truck": "15062b7",
+  "date": "2025-12-25",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01057",
+  "truck": "15062b7",
+  "date": "2025-12-25",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01024",
+  "truck": "3104d12",
+  "date": "2025-12-27",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01021",
+  "truck": "3104d12",
+  "date": "2025-12-28",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01041",
+  "truck": "7728h33",
+  "date": "2025-12-28",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01022",
+  "truck": "3104d12",
+  "date": "2025-12-30",
+  "amount": 250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01042",
+  "truck": "7728h33",
+  "date": "2025-12-30",
+  "amount": 600,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01103",
+  "truck": "7728h33",
+  "date": "2026-01-02",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01087",
+  "truck": "3104d12",
+  "date": "2026-01-05",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01106",
+  "truck": "7728h33",
+  "date": "2026-01-05",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01141",
+  "truck": "908e41",
+  "date": "2026-01-06",
+  "amount": 1200,
+  "note": ""
+ },
+ {
+  "id": "cj01104",
+  "truck": "7728h33",
+  "date": "2026-01-07",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj01140",
+  "truck": "908e41",
+  "date": "2026-01-07",
+  "amount": 850,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01102",
+  "truck": "7728h33",
+  "date": "2026-01-08",
+  "amount": 450,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01119",
+  "truck": "15062b7",
+  "date": "2026-01-10",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01142",
+  "truck": "908e41",
+  "date": "2026-01-11",
+  "amount": 800,
+  "note": ""
+ },
+ {
+  "id": "cj01107",
+  "truck": "7728h33",
+  "date": "2026-01-13",
+  "amount": 550,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01125",
+  "truck": "15062b7",
+  "date": "2026-01-14",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cj01105",
+  "truck": "7728h33",
+  "date": "2026-01-15",
+  "amount": 350,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01085",
+  "truck": "3104d12",
+  "date": "2026-01-16",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01100",
+  "truck": "7728h33",
+  "date": "2026-01-18",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01124",
+  "truck": "15062b7",
+  "date": "2026-01-18",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01123",
+  "truck": "15062b7",
+  "date": "2026-01-19",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cj01086",
+  "truck": "3104d12",
+  "date": "2026-01-20",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01122",
+  "truck": "15062b7",
+  "date": "2026-01-22",
+  "amount": 550,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01084",
+  "truck": "3104d12",
+  "date": "2026-01-23",
+  "amount": 450,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01120",
+  "truck": "15062b7",
+  "date": "2026-01-24",
+  "amount": 600,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01088",
+  "truck": "3104d12",
+  "date": "2026-01-25",
+  "amount": 350,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01101",
+  "truck": "7728h33",
+  "date": "2026-01-25",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01121",
+  "truck": "15062b7",
+  "date": "2026-01-28",
+  "amount": 450,
+  "note": ""
+ },
+ {
+  "id": "cj01139",
+  "truck": "908e41",
+  "date": "2026-01-29",
+  "amount": 800,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01154",
+  "truck": "3104d12",
+  "date": "2026-02-01",
+  "amount": 400,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01218",
+  "truck": "22417w18",
+  "date": "2026-02-01",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01221",
+  "truck": "22417w18",
+  "date": "2026-02-02",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01179",
+  "truck": "7728h33",
+  "date": "2026-02-03",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01206",
+  "truck": "908e41",
+  "date": "2026-02-04",
+  "amount": 700,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01174",
+  "truck": "7728h33",
+  "date": "2026-02-05",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01157",
+  "truck": "3104d12",
+  "date": "2026-02-07",
+  "amount": 350,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01173",
+  "truck": "7728h33",
+  "date": "2026-02-08",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01156",
+  "truck": "3104d12",
+  "date": "2026-02-11",
+  "amount": 250,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01205",
+  "truck": "908e41",
+  "date": "2026-02-11",
+  "amount": 900,
+  "note": ""
+ },
+ {
+  "id": "cj01194",
+  "truck": "15062b7",
+  "date": "2026-02-12",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01158",
+  "truck": "3104d12",
+  "date": "2026-02-15",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01160",
+  "truck": "3104d12",
+  "date": "2026-02-17",
+  "amount": 450,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01155",
+  "truck": "3104d12",
+  "date": "2026-02-19",
+  "amount": 550,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01191",
+  "truck": "15062b7",
+  "date": "2026-02-19",
+  "amount": 300,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01161",
+  "truck": "3104d12",
+  "date": "2026-02-20",
+  "amount": 400,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01159",
+  "truck": "3104d12",
+  "date": "2026-02-21",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01192",
+  "truck": "15062b7",
+  "date": "2026-02-21",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01178",
+  "truck": "7728h33",
+  "date": "2026-02-22",
+  "amount": 450,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01219",
+  "truck": "22417w18",
+  "date": "2026-02-22",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01220",
+  "truck": "22417w18",
+  "date": "2026-02-22",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01195",
+  "truck": "15062b7",
+  "date": "2026-02-23",
+  "amount": 250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01177",
+  "truck": "7728h33",
+  "date": "2026-02-24",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01175",
+  "truck": "7728h33",
+  "date": "2026-02-25",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01217",
+  "truck": "22417w18",
+  "date": "2026-02-25",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01207",
+  "truck": "908e41",
+  "date": "2026-02-26",
+  "amount": 1300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01176",
+  "truck": "7728h33",
+  "date": "2026-02-28",
+  "amount": 450,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01193",
+  "truck": "15062b7",
+  "date": "2026-02-28",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cj01253",
+  "truck": "7728h33",
+  "date": "2026-03-01",
+  "amount": 250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01269",
+  "truck": "15062b7",
+  "date": "2026-03-02",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj01280",
+  "truck": "908e41",
+  "date": "2026-03-02",
+  "amount": 1100,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01283",
+  "truck": "908e41",
+  "date": "2026-03-03",
+  "amount": 1100,
+  "note": ""
+ },
+ {
+  "id": "cj01237",
+  "truck": "3104d12",
+  "date": "2026-03-04",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01252",
+  "truck": "7728h33",
+  "date": "2026-03-04",
+  "amount": 200,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01257",
+  "truck": "7728h33",
+  "date": "2026-03-05",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01239",
+  "truck": "3104d12",
+  "date": "2026-03-09",
+  "amount": 200,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01266",
+  "truck": "15062b7",
+  "date": "2026-03-10",
+  "amount": 200,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01256",
+  "truck": "7728h33",
+  "date": "2026-03-12",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01268",
+  "truck": "15062b7",
+  "date": "2026-03-15",
+  "amount": 200,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01250",
+  "truck": "7728h33",
+  "date": "2026-03-16",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01232",
+  "truck": "3104d12",
+  "date": "2026-03-18",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01282",
+  "truck": "908e41",
+  "date": "2026-03-19",
+  "amount": 750,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01296",
+  "truck": "22417w18",
+  "date": "2026-03-19",
+  "amount": 600,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01254",
+  "truck": "7728h33",
+  "date": "2026-03-20",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01255",
+  "truck": "7728h33",
+  "date": "2026-03-20",
+  "amount": 450,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01234",
+  "truck": "3104d12",
+  "date": "2026-03-21",
+  "amount": 450,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01251",
+  "truck": "7728h33",
+  "date": "2026-03-21",
+  "amount": 200,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01238",
+  "truck": "3104d12",
+  "date": "2026-03-24",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj01233",
+  "truck": "3104d12",
+  "date": "2026-03-26",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cj01235",
+  "truck": "3104d12",
+  "date": "2026-03-27",
+  "amount": 350,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01236",
+  "truck": "3104d12",
+  "date": "2026-03-27",
+  "amount": 200,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01294",
+  "truck": "22417w18",
+  "date": "2026-03-27",
+  "amount": 200,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01281",
+  "truck": "908e41",
+  "date": "2026-03-29",
+  "amount": 1100,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01293",
+  "truck": "22417w18",
+  "date": "2026-03-29",
+  "amount": 200,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01295",
+  "truck": "22417w18",
+  "date": "2026-03-30",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01267",
+  "truck": "15062b7",
+  "date": "2026-03-31",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01343",
+  "truck": "15062b7",
+  "date": "2026-04-03",
+  "amount": 350,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01357",
+  "truck": "908e41",
+  "date": "2026-04-03",
+  "amount": 650,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01342",
+  "truck": "15062b7",
+  "date": "2026-04-04",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj01370",
+  "truck": "22417w18",
+  "date": "2026-04-04",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01323",
+  "truck": "7728h33",
+  "date": "2026-04-06",
+  "amount": 350,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01324",
+  "truck": "7728h33",
+  "date": "2026-04-06",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01309",
+  "truck": "3104d12",
+  "date": "2026-04-07",
+  "amount": 400,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01372",
+  "truck": "22417w18",
+  "date": "2026-04-10",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01311",
+  "truck": "3104d12",
+  "date": "2026-04-11",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01321",
+  "truck": "7728h33",
+  "date": "2026-04-13",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01356",
+  "truck": "908e41",
+  "date": "2026-04-13",
+  "amount": 850,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01322",
+  "truck": "7728h33",
+  "date": "2026-04-14",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01371",
+  "truck": "22417w18",
+  "date": "2026-04-14",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01369",
+  "truck": "22417w18",
+  "date": "2026-04-15",
+  "amount": 300,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01355",
+  "truck": "908e41",
+  "date": "2026-04-18",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cj01337",
+  "truck": "15062b7",
+  "date": "2026-04-20",
+  "amount": 350,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01368",
+  "truck": "22417w18",
+  "date": "2026-04-21",
+  "amount": 450,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01326",
+  "truck": "7728h33",
+  "date": "2026-04-22",
+  "amount": 450,
+  "note": ""
+ },
+ {
+  "id": "cj01338",
+  "truck": "15062b7",
+  "date": "2026-04-22",
+  "amount": 450,
+  "note": ""
+ },
+ {
+  "id": "cj01339",
+  "truck": "15062b7",
+  "date": "2026-04-23",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01325",
+  "truck": "7728h33",
+  "date": "2026-04-24",
+  "amount": 300,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01310",
+  "truck": "3104d12",
+  "date": "2026-04-25",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01340",
+  "truck": "15062b7",
+  "date": "2026-04-25",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cj01341",
+  "truck": "15062b7",
+  "date": "2026-04-26",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01358",
+  "truck": "908e41",
+  "date": "2026-04-26",
+  "amount": 1400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01312",
+  "truck": "3104d12",
+  "date": "2026-04-28",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01320",
+  "truck": "7728h33",
+  "date": "2026-04-29",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01445",
+  "truck": "22417w18",
+  "date": "2026-05-01",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01382",
+  "truck": "3104d12",
+  "date": "2026-05-02",
+  "amount": 450,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01449",
+  "truck": "22417w18",
+  "date": "2026-05-04",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cj01397",
+  "truck": "7728h33",
+  "date": "2026-05-07",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01416",
+  "truck": "15062b7",
+  "date": "2026-05-08",
+  "amount": 600,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01419",
+  "truck": "15062b7",
+  "date": "2026-05-12",
+  "amount": 200,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01401",
+  "truck": "7728h33",
+  "date": "2026-05-13",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01384",
+  "truck": "3104d12",
+  "date": "2026-05-14",
+  "amount": 400,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01400",
+  "truck": "7728h33",
+  "date": "2026-05-14",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01418",
+  "truck": "15062b7",
+  "date": "2026-05-15",
+  "amount": 250,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01430",
+  "truck": "908e41",
+  "date": "2026-05-17",
+  "amount": 750,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01431",
+  "truck": "908e41",
+  "date": "2026-05-17",
+  "amount": 1100,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01447",
+  "truck": "22417w18",
+  "date": "2026-05-17",
+  "amount": 300,
+  "note": ""
+ },
+ {
+  "id": "cj01417",
+  "truck": "15062b7",
+  "date": "2026-05-18",
+  "amount": 200,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01432",
+  "truck": "908e41",
+  "date": "2026-05-19",
+  "amount": 700,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01399",
+  "truck": "7728h33",
+  "date": "2026-05-22",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01381",
+  "truck": "3104d12",
+  "date": "2026-05-24",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01398",
+  "truck": "7728h33",
+  "date": "2026-05-27",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01450",
+  "truck": "22417w18",
+  "date": "2026-05-27",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01446",
+  "truck": "22417w18",
+  "date": "2026-05-28",
+  "amount": 250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01383",
+  "truck": "3104d12",
+  "date": "2026-05-30",
+  "amount": 450,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01444",
+  "truck": "22417w18",
+  "date": "2026-05-30",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01448",
+  "truck": "22417w18",
+  "date": "2026-05-30",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01396",
+  "truck": "7728h33",
+  "date": "2026-05-31",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01525",
+  "truck": "22417w18",
+  "date": "2026-06-01",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01510",
+  "truck": "908e41",
+  "date": "2026-06-03",
+  "amount": 800,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01530",
+  "truck": "22417w18",
+  "date": "2026-06-03",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01462",
+  "truck": "3104d12",
+  "date": "2026-06-05",
+  "amount": 400,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01529",
+  "truck": "22417w18",
+  "date": "2026-06-05",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cj01468",
+  "truck": "3104d12",
+  "date": "2026-06-06",
+  "amount": 400,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01464",
+  "truck": "3104d12",
+  "date": "2026-06-11",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01524",
+  "truck": "22417w18",
+  "date": "2026-06-11",
+  "amount": 550,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01527",
+  "truck": "22417w18",
+  "date": "2026-06-11",
+  "amount": 600,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01528",
+  "truck": "22417w18",
+  "date": "2026-06-12",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01511",
+  "truck": "908e41",
+  "date": "2026-06-14",
+  "amount": 1450,
+  "note": ""
+ },
+ {
+  "id": "cj01480",
+  "truck": "7728h33",
+  "date": "2026-06-17",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj01483",
+  "truck": "7728h33",
+  "date": "2026-06-17",
+  "amount": 350,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01482",
+  "truck": "7728h33",
+  "date": "2026-06-21",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01463",
+  "truck": "3104d12",
+  "date": "2026-06-23",
+  "amount": 300,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01481",
+  "truck": "7728h33",
+  "date": "2026-06-23",
+  "amount": 250,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01466",
+  "truck": "3104d12",
+  "date": "2026-06-24",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01523",
+  "truck": "22417w18",
+  "date": "2026-06-24",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01465",
+  "truck": "3104d12",
+  "date": "2026-06-26",
+  "amount": 400,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01496",
+  "truck": "15062b7",
+  "date": "2026-06-26",
+  "amount": 250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01497",
+  "truck": "15062b7",
+  "date": "2026-06-28",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01499",
+  "truck": "15062b7",
+  "date": "2026-06-29",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01467",
+  "truck": "3104d12",
+  "date": "2026-06-30",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01498",
+  "truck": "15062b7",
+  "date": "2026-06-30",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01526",
+  "truck": "22417w18",
+  "date": "2026-06-30",
+  "amount": 600,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01559",
+  "truck": "7728h33",
+  "date": "2026-07-01",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01560",
+  "truck": "7728h33",
+  "date": "2026-07-01",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01596",
+  "truck": "908e41",
+  "date": "2026-07-01",
+  "amount": 900,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01544",
+  "truck": "3104d12",
+  "date": "2026-07-02",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01561",
+  "truck": "7728h33",
+  "date": "2026-07-02",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01605",
+  "truck": "22417w18",
+  "date": "2026-07-03",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01580",
+  "truck": "15062b7",
+  "date": "2026-07-06",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01609",
+  "truck": "22417w18",
+  "date": "2026-07-06",
+  "amount": 450,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01595",
+  "truck": "908e41",
+  "date": "2026-07-07",
+  "amount": 850,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01558",
+  "truck": "7728h33",
+  "date": "2026-07-08",
+  "amount": 450,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01574",
+  "truck": "15062b7",
+  "date": "2026-07-08",
+  "amount": 250,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01593",
+  "truck": "908e41",
+  "date": "2026-07-08",
+  "amount": 1050,
+  "note": ""
+ },
+ {
+  "id": "cj01581",
+  "truck": "15062b7",
+  "date": "2026-07-11",
+  "amount": 200,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01542",
+  "truck": "3104d12",
+  "date": "2026-07-13",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01575",
+  "truck": "15062b7",
+  "date": "2026-07-14",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01576",
+  "truck": "15062b7",
+  "date": "2026-07-14",
+  "amount": 600,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01606",
+  "truck": "22417w18",
+  "date": "2026-07-14",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01543",
+  "truck": "3104d12",
+  "date": "2026-07-16",
+  "amount": 250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01610",
+  "truck": "22417w18",
+  "date": "2026-07-17",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01545",
+  "truck": "3104d12",
+  "date": "2026-07-21",
+  "amount": 450,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01563",
+  "truck": "7728h33",
+  "date": "2026-07-21",
+  "amount": 200,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01607",
+  "truck": "22417w18",
+  "date": "2026-07-21",
+  "amount": 550,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01608",
+  "truck": "22417w18",
+  "date": "2026-07-21",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01562",
+  "truck": "7728h33",
+  "date": "2026-07-24",
+  "amount": 450,
+  "note": ""
+ },
+ {
+  "id": "cj01546",
+  "truck": "3104d12",
+  "date": "2026-07-25",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01577",
+  "truck": "15062b7",
+  "date": "2026-07-25",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01579",
+  "truck": "15062b7",
+  "date": "2026-07-26",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01578",
+  "truck": "15062b7",
+  "date": "2026-07-31",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01594",
+  "truck": "908e41",
+  "date": "2026-07-31",
+  "amount": 800,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01651",
+  "truck": "15062b7",
+  "date": "2026-08-03",
+  "amount": 200,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01643",
+  "truck": "7728h33",
+  "date": "2026-08-04",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01681",
+  "truck": "22417w18",
+  "date": "2026-08-05",
+  "amount": 250,
+  "note": ""
+ },
+ {
+  "id": "cj01668",
+  "truck": "908e41",
+  "date": "2026-08-07",
+  "amount": 800,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01640",
+  "truck": "7728h33",
+  "date": "2026-08-08",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cj01623",
+  "truck": "3104d12",
+  "date": "2026-08-10",
+  "amount": 400,
+  "note": ""
+ },
+ {
+  "id": "cj01654",
+  "truck": "15062b7",
+  "date": "2026-08-11",
+  "amount": 500,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01620",
+  "truck": "3104d12",
+  "date": "2026-08-12",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01684",
+  "truck": "22417w18",
+  "date": "2026-08-12",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01667",
+  "truck": "908e41",
+  "date": "2026-08-15",
+  "amount": 1100,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01621",
+  "truck": "3104d12",
+  "date": "2026-08-16",
+  "amount": 500,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01669",
+  "truck": "908e41",
+  "date": "2026-08-17",
+  "amount": 700,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01683",
+  "truck": "22417w18",
+  "date": "2026-08-17",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01625",
+  "truck": "3104d12",
+  "date": "2026-08-19",
+  "amount": 550,
+  "note": ""
+ },
+ {
+  "id": "cj01653",
+  "truck": "15062b7",
+  "date": "2026-08-19",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01642",
+  "truck": "7728h33",
+  "date": "2026-08-20",
+  "amount": 500,
+  "note": ""
+ },
+ {
+  "id": "cj01656",
+  "truck": "15062b7",
+  "date": "2026-08-20",
+  "amount": 600,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01678",
+  "truck": "22417w18",
+  "date": "2026-08-20",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01627",
+  "truck": "3104d12",
+  "date": "2026-08-21",
+  "amount": 450,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01680",
+  "truck": "22417w18",
+  "date": "2026-08-21",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01622",
+  "truck": "3104d12",
+  "date": "2026-08-22",
+  "amount": 200,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01655",
+  "truck": "15062b7",
+  "date": "2026-08-22",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01682",
+  "truck": "22417w18",
+  "date": "2026-08-23",
+  "amount": 300,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01641",
+  "truck": "7728h33",
+  "date": "2026-08-24",
+  "amount": 300,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01624",
+  "truck": "3104d12",
+  "date": "2026-08-25",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01652",
+  "truck": "15062b7",
+  "date": "2026-08-25",
+  "amount": 350,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01626",
+  "truck": "3104d12",
+  "date": "2026-08-28",
+  "amount": 600,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01679",
+  "truck": "22417w18",
+  "date": "2026-08-30",
+  "amount": 200,
+  "note": ""
+ },
+ {
+  "id": "cj01657",
+  "truck": "15062b7",
+  "date": "2026-08-31",
+  "amount": 600,
+  "note": ""
+ },
+ {
+  "id": "cj01698",
+  "truck": "3104d12",
+  "date": "2026-09-01",
+  "amount": 500,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01717",
+  "truck": "7728h33",
+  "date": "2026-09-01",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01696",
+  "truck": "3104d12",
+  "date": "2026-09-02",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01697",
+  "truck": "3104d12",
+  "date": "2026-09-02",
+  "amount": 350,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01714",
+  "truck": "7728h33",
+  "date": "2026-09-02",
+  "amount": 450,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01756",
+  "truck": "22417w18",
+  "date": "2026-09-04",
+  "amount": 600,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01727",
+  "truck": "15062b7",
+  "date": "2026-09-06",
+  "amount": 550,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01730",
+  "truck": "15062b7",
+  "date": "2026-09-06",
+  "amount": 350,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01729",
+  "truck": "15062b7",
+  "date": "2026-09-08",
+  "amount": 400,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01758",
+  "truck": "22417w18",
+  "date": "2026-09-10",
+  "amount": 200,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01694",
+  "truck": "3104d12",
+  "date": "2026-09-11",
+  "amount": 250,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01713",
+  "truck": "7728h33",
+  "date": "2026-09-12",
+  "amount": 400,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01755",
+  "truck": "22417w18",
+  "date": "2026-09-12",
+  "amount": 200,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01759",
+  "truck": "22417w18",
+  "date": "2026-09-13",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01695",
+  "truck": "3104d12",
+  "date": "2026-09-14",
+  "amount": 550,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01757",
+  "truck": "22417w18",
+  "date": "2026-09-14",
+  "amount": 600,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01731",
+  "truck": "15062b7",
+  "date": "2026-09-15",
+  "amount": 450,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01716",
+  "truck": "7728h33",
+  "date": "2026-09-16",
+  "amount": 500,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01743",
+  "truck": "908e41",
+  "date": "2026-09-17",
+  "amount": 850,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01742",
+  "truck": "908e41",
+  "date": "2026-09-18",
+  "amount": 1250,
+  "note": "Tow to home"
+ },
+ {
+  "id": "cj01754",
+  "truck": "22417w18",
+  "date": "2026-09-20",
+  "amount": 500,
+  "note": "Private customer"
+ },
+ {
+  "id": "cj01715",
+  "truck": "7728h33",
+  "date": "2026-09-24",
+  "amount": 300,
+  "note": "Jump start"
+ },
+ {
+  "id": "cj01699",
+  "truck": "3104d12",
+  "date": "2026-09-27",
+  "amount": 350,
+  "note": ""
+ },
+ {
+  "id": "cj01728",
+  "truck": "15062b7",
+  "date": "2026-09-27",
+  "amount": 450,
+  "note": ""
+ }
+]

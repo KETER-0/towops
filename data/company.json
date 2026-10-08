@@ -1,0 +1,10 @@
+{
+ "name": "Cedar Road Assist SARL",
+ "tagline": "Roadside assistance and towing, 24/7",
+ "address": "14 Rue des Orangers, Zone Industrielle",
+ "city": "Meknes, Morocco",
+ "phone": "+212 5XX XX XX XX",
+ "email": "dispatch@cedarroad.example",
+ "taxId": "ICE DEMO-000000000",
+ "bank": "Demo Bank (no real account in the demo)"
+}

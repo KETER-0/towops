@@ -1,0 +1,83 @@
+[
+ {
+  "code": "TOW-URB",
+  "label": "Flatbed tow, urban flat rate",
+  "mode": "flat",
+  "rate": 300,
+  "vat": 10,
+  "towing": true,
+  "expense": false
+ },
+ {
+  "code": "TOW-R50",
+  "label": "Flatbed tow, within 50 km, flat rate",
+  "mode": "flat",
+  "rate": 550,
+  "vat": 10,
+  "towing": true,
+  "expense": false
+ },
+ {
+  "code": "TOW-KM",
+  "label": "Flatbed tow, intercity, per km",
+  "mode": "km",
+  "rate": 6.5,
+  "vat": 10,
+  "towing": true,
+  "expense": false
+ },
+ {
+  "code": "TOW-HVY-KM",
+  "label": "Heavy vehicle tow, per km",
+  "mode": "km",
+  "rate": 11,
+  "vat": 10,
+  "towing": true,
+  "expense": false
+ },
+ {
+  "code": "REP-SITE",
+  "label": "On-site repair (battery, wheel, fuel)",
+  "mode": "flat",
+  "rate": 350,
+  "vat": 20,
+  "towing": false,
+  "expense": false
+ },
+ {
+  "code": "EXTR",
+  "label": "Winching and vehicle recovery",
+  "mode": "flat",
+  "rate": 650,
+  "vat": 20,
+  "towing": true,
+  "expense": false
+ },
+ {
+  "code": "STOR",
+  "label": "Secure storage, per night",
+  "mode": "quantity",
+  "rate": 60,
+  "vat": 20,
+  "towing": false,
+  "expense": false
+ },
+ {
+  "code": "WAIT",
+  "label": "Waiting time, per hour",
+  "mode": "quantity",
+  "rate": 90,
+  "vat": 20,
+  "towing": false,
+  "expense": false
+ },
+ {
+  "code": "TOLL",
+  "label": "Motorway toll, re-invoiced at cost",
+  "mode": "price",
+  "rate": null,
+  "vat": 0,
+  "towing": false,
+  "expense": true
+ }
+]

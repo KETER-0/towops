@@ -1,0 +1,3362 @@
+[
+ {
+  "id": "f00918",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-02",
+  "payment": "credit",
+  "amount": 772.41,
+  "litres": 59.18,
+  "odometer": 189294
+ },
+ {
+  "id": "f00919",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-10-03",
+  "payment": "credit",
+  "amount": 842.93,
+  "litres": 62.63,
+  "odometer": 189613
+ },
+ {
+  "id": "f00900",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-04",
+  "payment": "credit",
+  "amount": 692.66,
+  "litres": 51.28,
+  "odometer": 148289
+ },
+ {
+  "id": "f00937",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-05",
+  "payment": "cash",
+  "amount": 938.07,
+  "litres": 71.7,
+  "odometer": 230344
+ },
+ {
+  "id": "f00938",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-06",
+  "payment": "credit",
+  "amount": 848.79,
+  "litres": 65.06,
+  "odometer": 230653
+ },
+ {
+  "id": "f00939",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-08",
+  "payment": "cash",
+  "amount": 840.49,
+  "litres": 59.16,
+  "odometer": 230918
+ },
+ {
+  "id": "f00901",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-09",
+  "payment": "credit",
+  "amount": 711.7,
+  "litres": 52.36,
+  "odometer": 148589
+ },
+ {
+  "id": "f00940",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-10-10",
+  "payment": "cash",
+  "amount": 712.32,
+  "litres": 52.73,
+  "odometer": 231158
+ },
+ {
+  "id": "f00902",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-10-11",
+  "payment": "credit",
+  "amount": 738.44,
+  "litres": 56.04,
+  "odometer": 148923
+ },
+ {
+  "id": "f00903",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-11",
+  "payment": "credit",
+  "amount": 814.97,
+  "litres": 59.95,
+  "odometer": 149266
+ },
+ {
+  "id": "f00904",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-13",
+  "payment": "cash",
+  "amount": 693.06,
+  "litres": 50,
+  "odometer": 149577
+ },
+ {
+  "id": "f00941",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-13",
+  "payment": "credit",
+  "amount": 847.66,
+  "litres": 63.37,
+  "odometer": 231432
+ },
+ {
+  "id": "f00950",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-16",
+  "payment": "credit",
+  "amount": 1413.82,
+  "litres": 101.92,
+  "odometer": 271311
+ },
+ {
+  "id": "f00920",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-19",
+  "payment": "cash",
+  "amount": 961.02,
+  "litres": 68.43,
+  "odometer": 189973
+ },
+ {
+  "id": "f00951",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-19",
+  "payment": "cash",
+  "amount": 1255.43,
+  "litres": 88.69,
+  "odometer": 271619
+ },
+ {
+  "id": "f00942",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-10-20",
+  "payment": "cash",
+  "amount": 629.59,
+  "litres": 46.78,
+  "odometer": 231662
+ },
+ {
+  "id": "f00952",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-10-20",
+  "payment": "cash",
+  "amount": 1375.18,
+  "litres": 98.54,
+  "odometer": 271915
+ },
+ {
+  "id": "f00921",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-10-21",
+  "payment": "credit",
+  "amount": 851.08,
+  "litres": 65.59,
+  "odometer": 190317
+ },
+ {
+  "id": "f00953",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-22",
+  "payment": "credit",
+  "amount": 1118.45,
+  "litres": 86.51,
+  "odometer": 272193
+ },
+ {
+  "id": "f00922",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-10-24",
+  "payment": "cash",
+  "amount": 652.92,
+  "litres": 48.73,
+  "odometer": 190566
+ },
+ {
+  "id": "f00905",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-25",
+  "payment": "credit",
+  "amount": 597.23,
+  "litres": 42.07,
+  "odometer": 149841
+ },
+ {
+  "id": "f00923",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-26",
+  "payment": "cash",
+  "amount": 925.44,
+  "litres": 66.64,
+  "odometer": 190923
+ },
+ {
+  "id": "f00943",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-26",
+  "payment": "credit",
+  "amount": 898.6,
+  "litres": 67.36,
+  "odometer": 231975
+ },
+ {
+  "id": "f00954",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-10-27",
+  "payment": "credit",
+  "amount": 1480.44,
+  "litres": 111.04,
+  "odometer": 272544
+ },
+ {
+  "id": "f00924",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-28",
+  "payment": "credit",
+  "amount": 791.24,
+  "litres": 60.64,
+  "odometer": 191223
+ },
+ {
+  "id": "f00955",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-10-30",
+  "payment": "credit",
+  "amount": 923.52,
+  "litres": 68.4,
+  "odometer": 272767
+ },
+ {
+  "id": "f00965",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-01",
+  "payment": "credit",
+  "amount": 759.02,
+  "litres": 56.2,
+  "odometer": 150173
+ },
+ {
+  "id": "f00999",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-02",
+  "payment": "credit",
+  "amount": 1008.12,
+  "litres": 78.07,
+  "odometer": 232319
+ },
+ {
+  "id": "f01000",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-03",
+  "payment": "credit",
+  "amount": 1048.29,
+  "litres": 78.72,
+  "odometer": 232662
+ },
+ {
+  "id": "f00966",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-05",
+  "payment": "credit",
+  "amount": 584.33,
+  "litres": 42.03,
+  "odometer": 150430
+ },
+ {
+  "id": "f01011",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-05",
+  "payment": "credit",
+  "amount": 1620.54,
+  "litres": 116.72,
+  "odometer": 273120
+ },
+ {
+  "id": "f01012",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-11-05",
+  "payment": "credit",
+  "amount": 1495.95,
+  "litres": 107.31,
+  "odometer": 273478
+ },
+ {
+  "id": "f00983",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-11-09",
+  "payment": "cash",
+  "amount": 900.49,
+  "litres": 66.82,
+  "odometer": 191553
+ },
+ {
+  "id": "f00984",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-11",
+  "payment": "credit",
+  "amount": 710,
+  "litres": 52.37,
+  "odometer": 191843
+ },
+ {
+  "id": "f00967",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-11-14",
+  "payment": "cash",
+  "amount": 689.98,
+  "litres": 49.38,
+  "odometer": 150710
+ },
+ {
+  "id": "f01013",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-15",
+  "payment": "cash",
+  "amount": 1274.23,
+  "litres": 95.69,
+  "odometer": 273802
+ },
+ {
+  "id": "f01014",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-16",
+  "payment": "credit",
+  "amount": 1298.62,
+  "litres": 91.86,
+  "odometer": 274121
+ },
+ {
+  "id": "f01015",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-17",
+  "payment": "credit",
+  "amount": 1452.7,
+  "litres": 108.43,
+  "odometer": 274454
+ },
+ {
+  "id": "f01016",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-18",
+  "payment": "cash",
+  "amount": 1512.79,
+  "litres": 108.51,
+  "odometer": 274807
+ },
+ {
+  "id": "f01001",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-11-19",
+  "payment": "cash",
+  "amount": 703.95,
+  "litres": 53.8,
+  "odometer": 232922
+ },
+ {
+  "id": "f01002",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-11-19",
+  "payment": "credit",
+  "amount": 942.65,
+  "litres": 68.56,
+  "odometer": 233231
+ },
+ {
+  "id": "f01017",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-19",
+  "payment": "credit",
+  "amount": 1536.92,
+  "litres": 107.57,
+  "odometer": 275138
+ },
+ {
+  "id": "f01003",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-20",
+  "payment": "cash",
+  "amount": 705.52,
+  "litres": 50.46,
+  "odometer": 233474
+ },
+ {
+  "id": "f00968",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-22",
+  "payment": "credit",
+  "amount": 603.3,
+  "litres": 46.56,
+  "odometer": 151006
+ },
+ {
+  "id": "f00969",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-11-23",
+  "payment": "credit",
+  "amount": 807.68,
+  "litres": 60.69,
+  "odometer": 151339
+ },
+ {
+  "id": "f00985",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-23",
+  "payment": "credit",
+  "amount": 741.11,
+  "litres": 52.04,
+  "odometer": 192104
+ },
+ {
+  "id": "f00986",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-11-24",
+  "payment": "cash",
+  "amount": 940.96,
+  "litres": 68.73,
+  "odometer": 192458
+ },
+ {
+  "id": "f00987",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-25",
+  "payment": "cash",
+  "amount": 643.12,
+  "litres": 48.88,
+  "odometer": 192705
+ },
+ {
+  "id": "f01004",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-25",
+  "payment": "credit",
+  "amount": 890.39,
+  "litres": 62.62,
+  "odometer": 233758
+ },
+ {
+  "id": "f00988",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-11-28",
+  "payment": "credit",
+  "amount": 863.78,
+  "litres": 61.63,
+  "odometer": 193021
+ },
+ {
+  "id": "f01028",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-04",
+  "payment": "credit",
+  "amount": 806.57,
+  "litres": 56.79,
+  "odometer": 151687
+ },
+ {
+  "id": "f01064",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-05",
+  "payment": "cash",
+  "amount": 862.04,
+  "litres": 65.19,
+  "odometer": 234039
+ },
+ {
+  "id": "f01077",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-06",
+  "payment": "cash",
+  "amount": 1332.84,
+  "litres": 98,
+  "odometer": 275464
+ },
+ {
+  "id": "f01047",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-12-09",
+  "payment": "credit",
+  "amount": 642.01,
+  "litres": 44.9,
+  "odometer": 193264
+ },
+ {
+  "id": "f01065",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-12-12",
+  "payment": "cash",
+  "amount": 787.4,
+  "litres": 55.14,
+  "odometer": 234303
+ },
+ {
+  "id": "f01066",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-12",
+  "payment": "cash",
+  "amount": 724.79,
+  "litres": 53.89,
+  "odometer": 234539
+ },
+ {
+  "id": "f01048",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-12-14",
+  "payment": "credit",
+  "amount": 655.99,
+  "litres": 46.69,
+  "odometer": 193499
+ },
+ {
+  "id": "f01067",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-16",
+  "payment": "credit",
+  "amount": 920.17,
+  "litres": 69.66,
+  "odometer": 234860
+ },
+ {
+  "id": "f01049",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-17",
+  "payment": "credit",
+  "amount": 583.13,
+  "litres": 42.74,
+  "odometer": 193730
+ },
+ {
+  "id": "f01029",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-12-18",
+  "payment": "credit",
+  "amount": 557.29,
+  "litres": 39.8,
+  "odometer": 151924
+ },
+ {
+  "id": "f01050",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-18",
+  "payment": "credit",
+  "amount": 734.89,
+  "litres": 54.26,
+  "odometer": 194021
+ },
+ {
+  "id": "f01068",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-18",
+  "payment": "credit",
+  "amount": 779.83,
+  "litres": 59.03,
+  "odometer": 235111
+ },
+ {
+  "id": "f01078",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-19",
+  "payment": "cash",
+  "amount": 1152.52,
+  "litres": 83.3,
+  "odometer": 275733
+ },
+ {
+  "id": "f01030",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-20",
+  "payment": "cash",
+  "amount": 629.57,
+  "litres": 47.79,
+  "odometer": 152197
+ },
+ {
+  "id": "f01079",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-21",
+  "payment": "credit",
+  "amount": 1505.43,
+  "litres": 106.72,
+  "odometer": 276079
+ },
+ {
+  "id": "f01031",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-24",
+  "payment": "cash",
+  "amount": 694.83,
+  "litres": 49.87,
+  "odometer": 152473
+ },
+ {
+  "id": "f01051",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-24",
+  "payment": "cash",
+  "amount": 612.67,
+  "litres": 45.91,
+  "odometer": 194245
+ },
+ {
+  "id": "f01080",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-25",
+  "payment": "credit",
+  "amount": 1042.09,
+  "litres": 73.77,
+  "odometer": 276302
+ },
+ {
+  "id": "f01032",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-26",
+  "payment": "credit",
+  "amount": 580.23,
+  "litres": 40.62,
+  "odometer": 152702
+ },
+ {
+  "id": "f01033",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-28",
+  "payment": "credit",
+  "amount": 526.65,
+  "litres": 38.94,
+  "odometer": 152935
+ },
+ {
+  "id": "f01034",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2025-12-28",
+  "payment": "credit",
+  "amount": 519.94,
+  "litres": 39.68,
+  "odometer": 153175
+ },
+ {
+  "id": "f01081",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-12-28",
+  "payment": "credit",
+  "amount": 1342.47,
+  "litres": 94.79,
+  "odometer": 276617
+ },
+ {
+  "id": "f01082",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2025-12-28",
+  "payment": "cash",
+  "amount": 1267.79,
+  "litres": 97.04,
+  "odometer": 276925
+ },
+ {
+  "id": "f01052",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2025-12-31",
+  "payment": "credit",
+  "amount": 628.36,
+  "litres": 45.82,
+  "odometer": 194474
+ },
+ {
+  "id": "f01145",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-04",
+  "payment": "credit",
+  "amount": 1226.33,
+  "litres": 94.99,
+  "odometer": 277253
+ },
+ {
+  "id": "f01146",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-05",
+  "payment": "credit",
+  "amount": 1318.64,
+  "litres": 96.13,
+  "odometer": 277555
+ },
+ {
+  "id": "f01091",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-06",
+  "payment": "credit",
+  "amount": 550.43,
+  "litres": 39.57,
+  "odometer": 153420
+ },
+ {
+  "id": "f01092",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-07",
+  "payment": "cash",
+  "amount": 527.54,
+  "litres": 40.32,
+  "odometer": 153669
+ },
+ {
+  "id": "f01093",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-07",
+  "payment": "credit",
+  "amount": 664.71,
+  "litres": 47.97,
+  "odometer": 153949
+ },
+ {
+  "id": "f01094",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-07",
+  "payment": "credit",
+  "amount": 689.41,
+  "litres": 49.23,
+  "odometer": 154225
+ },
+ {
+  "id": "f01112",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-07",
+  "payment": "cash",
+  "amount": 815.38,
+  "litres": 63.03,
+  "odometer": 194809
+ },
+ {
+  "id": "f01147",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-01-08",
+  "payment": "cash",
+  "amount": 1345.13,
+  "litres": 97.3,
+  "odometer": 277886
+ },
+ {
+  "id": "f01130",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-10",
+  "payment": "cash",
+  "amount": 703.57,
+  "litres": 53.32,
+  "odometer": 235369
+ },
+ {
+  "id": "f01148",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-10",
+  "payment": "credit",
+  "amount": 1218.13,
+  "litres": 92.76,
+  "odometer": 278209
+ },
+ {
+  "id": "f01095",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-12",
+  "payment": "credit",
+  "amount": 766.32,
+  "litres": 56.74,
+  "odometer": 154555
+ },
+ {
+  "id": "f01113",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-01-12",
+  "payment": "cash",
+  "amount": 893.02,
+  "litres": 69.09,
+  "odometer": 195156
+ },
+ {
+  "id": "f01114",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-13",
+  "payment": "credit",
+  "amount": 895.26,
+  "litres": 68,
+  "odometer": 195498
+ },
+ {
+  "id": "f01115",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-15",
+  "payment": "credit",
+  "amount": 889.94,
+  "litres": 62.96,
+  "odometer": 195801
+ },
+ {
+  "id": "f01131",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-16",
+  "payment": "cash",
+  "amount": 770.97,
+  "litres": 59.56,
+  "odometer": 235631
+ },
+ {
+  "id": "f01116",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-01-17",
+  "payment": "credit",
+  "amount": 843.13,
+  "litres": 59.83,
+  "odometer": 196118
+ },
+ {
+  "id": "f01132",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-17",
+  "payment": "credit",
+  "amount": 840.87,
+  "litres": 64.72,
+  "odometer": 235918
+ },
+ {
+  "id": "f01117",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-20",
+  "payment": "cash",
+  "amount": 654.65,
+  "litres": 48.67,
+  "odometer": 196385
+ },
+ {
+  "id": "f01133",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-21",
+  "payment": "credit",
+  "amount": 831.25,
+  "litres": 60.24,
+  "odometer": 236203
+ },
+ {
+  "id": "f01096",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-01-25",
+  "payment": "cash",
+  "amount": 784.69,
+  "litres": 58.44,
+  "odometer": 154906
+ },
+ {
+  "id": "f01134",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-27",
+  "payment": "cash",
+  "amount": 831.17,
+  "litres": 63.46,
+  "odometer": 236478
+ },
+ {
+  "id": "f01097",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-01-31",
+  "payment": "credit",
+  "amount": 769.29,
+  "litres": 57.79,
+  "odometer": 155252
+ },
+ {
+  "id": "f01135",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-31",
+  "payment": "cash",
+  "amount": 945.93,
+  "litres": 70.11,
+  "odometer": 236814
+ },
+ {
+  "id": "f01149",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-01-31",
+  "payment": "credit",
+  "amount": 1391.92,
+  "litres": 103.94,
+  "odometer": 278540
+ },
+ {
+  "id": "f01150",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-01-31",
+  "payment": "credit",
+  "amount": 1023.26,
+  "litres": 77.84,
+  "odometer": 278796
+ },
+ {
+  "id": "f01165",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-01",
+  "payment": "credit",
+  "amount": 599.88,
+  "litres": 43.07,
+  "odometer": 155497
+ },
+ {
+  "id": "f01182",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-01",
+  "payment": "credit",
+  "amount": 801.81,
+  "litres": 56.96,
+  "odometer": 196676
+ },
+ {
+  "id": "f01166",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-02",
+  "payment": "credit",
+  "amount": 871.85,
+  "litres": 64.25,
+  "odometer": 155851
+ },
+ {
+  "id": "f01183",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-03",
+  "payment": "cash",
+  "amount": 600.24,
+  "litres": 42.08,
+  "odometer": 196901
+ },
+ {
+  "id": "f01197",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-03",
+  "payment": "credit",
+  "amount": 1073.36,
+  "litres": 77.05,
+  "odometer": 237173
+ },
+ {
+  "id": "f01209",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-04",
+  "payment": "credit",
+  "amount": 1405.66,
+  "litres": 100.72,
+  "odometer": 279105
+ },
+ {
+  "id": "f01167",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-05",
+  "payment": "credit",
+  "amount": 586.86,
+  "litres": 41.11,
+  "odometer": 156090
+ },
+ {
+  "id": "f01184",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-05",
+  "payment": "credit",
+  "amount": 887.04,
+  "litres": 63.95,
+  "odometer": 197235
+ },
+ {
+  "id": "f01198",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-09",
+  "payment": "credit",
+  "amount": 946.28,
+  "litres": 67,
+  "odometer": 237478
+ },
+ {
+  "id": "f01199",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-10",
+  "payment": "cash",
+  "amount": 988.76,
+  "litres": 71.96,
+  "odometer": 237818
+ },
+ {
+  "id": "f01210",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-11",
+  "payment": "cash",
+  "amount": 1249.35,
+  "litres": 90.13,
+  "odometer": 279391
+ },
+ {
+  "id": "f01211",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-02-11",
+  "payment": "cash",
+  "amount": 1062.6,
+  "litres": 79.22,
+  "odometer": 279641
+ },
+ {
+  "id": "f01212",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-02-12",
+  "payment": "credit",
+  "amount": 1478.28,
+  "litres": 114.45,
+  "odometer": 279994
+ },
+ {
+  "id": "f01200",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-13",
+  "payment": "cash",
+  "amount": 1005.33,
+  "litres": 76.47,
+  "odometer": 238173
+ },
+ {
+  "id": "f01201",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-13",
+  "payment": "credit",
+  "amount": 960.75,
+  "litres": 67.36,
+  "odometer": 238492
+ },
+ {
+  "id": "f01224",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-13",
+  "payment": "credit",
+  "amount": 904.88,
+  "litres": 66.77,
+  "odometer": 312358
+ },
+ {
+  "id": "f01213",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-14",
+  "payment": "credit",
+  "amount": 1329.94,
+  "litres": 97.22,
+  "odometer": 280292
+ },
+ {
+  "id": "f01225",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-14",
+  "payment": "cash",
+  "amount": 911.3,
+  "litres": 70.21,
+  "odometer": 312699
+ },
+ {
+  "id": "f01226",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-14",
+  "payment": "credit",
+  "amount": 947.98,
+  "litres": 68.83,
+  "odometer": 313038
+ },
+ {
+  "id": "f01185",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-16",
+  "payment": "credit",
+  "amount": 791.32,
+  "litres": 60.15,
+  "odometer": 197545
+ },
+ {
+  "id": "f01168",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-17",
+  "payment": "credit",
+  "amount": 570.63,
+  "litres": 43.96,
+  "odometer": 156332
+ },
+ {
+  "id": "f01214",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-17",
+  "payment": "credit",
+  "amount": 1070.47,
+  "litres": 80.11,
+  "odometer": 280549
+ },
+ {
+  "id": "f01169",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-18",
+  "payment": "credit",
+  "amount": 660.49,
+  "litres": 47.83,
+  "odometer": 156618
+ },
+ {
+  "id": "f01186",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-02-18",
+  "payment": "credit",
+  "amount": 709.61,
+  "litres": 52.92,
+  "odometer": 197817
+ },
+ {
+  "id": "f01227",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-20",
+  "payment": "credit",
+  "amount": 868.17,
+  "litres": 65,
+  "odometer": 313378
+ },
+ {
+  "id": "f01215",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-02-21",
+  "payment": "cash",
+  "amount": 1153.87,
+  "litres": 87.01,
+  "odometer": 280813
+ },
+ {
+  "id": "f01187",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-23",
+  "payment": "cash",
+  "amount": 734.3,
+  "litres": 55.64,
+  "odometer": 198086
+ },
+ {
+  "id": "f01228",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-02-24",
+  "payment": "credit",
+  "amount": 899.83,
+  "litres": 65.74,
+  "odometer": 313704
+ },
+ {
+  "id": "f01229",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-02-25",
+  "payment": "cash",
+  "amount": 785.28,
+  "litres": 56.59,
+  "odometer": 313979
+ },
+ {
+  "id": "f01188",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-02-27",
+  "payment": "credit",
+  "amount": 574.34,
+  "litres": 43.5,
+  "odometer": 198328
+ },
+ {
+  "id": "f01202",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-02-27",
+  "payment": "credit",
+  "amount": 945.36,
+  "litres": 71.93,
+  "odometer": 238829
+ },
+ {
+  "id": "f01242",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-01",
+  "payment": "cash",
+  "amount": 757.31,
+  "litres": 55.32,
+  "odometer": 156961
+ },
+ {
+  "id": "f01243",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-02",
+  "payment": "cash",
+  "amount": 795.9,
+  "litres": 58.8,
+  "odometer": 157316
+ },
+ {
+  "id": "f01244",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-04",
+  "payment": "cash",
+  "amount": 736.46,
+  "litres": 53.26,
+  "odometer": 157631
+ },
+ {
+  "id": "f01245",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-04",
+  "payment": "credit",
+  "amount": 640.56,
+  "litres": 46.34,
+  "odometer": 157912
+ },
+ {
+  "id": "f01246",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-07",
+  "payment": "credit",
+  "amount": 492.49,
+  "litres": 36.98,
+  "odometer": 158139
+ },
+ {
+  "id": "f01259",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-08",
+  "payment": "credit",
+  "amount": 696.57,
+  "litres": 53.88,
+  "odometer": 198584
+ },
+ {
+  "id": "f01300",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-10",
+  "payment": "cash",
+  "amount": 707.72,
+  "litres": 50.23,
+  "odometer": 314222
+ },
+ {
+  "id": "f01260",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-11",
+  "payment": "cash",
+  "amount": 768.81,
+  "litres": 59.58,
+  "odometer": 198916
+ },
+ {
+  "id": "f01273",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-11",
+  "payment": "credit",
+  "amount": 714.22,
+  "litres": 51.07,
+  "odometer": 239055
+ },
+ {
+  "id": "f01274",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-12",
+  "payment": "credit",
+  "amount": 930.38,
+  "litres": 69.1,
+  "odometer": 239380
+ },
+ {
+  "id": "f01261",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-14",
+  "payment": "credit",
+  "amount": 583.45,
+  "litres": 42.02,
+  "odometer": 199140
+ },
+ {
+  "id": "f01275",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-15",
+  "payment": "credit",
+  "amount": 865.36,
+  "litres": 61.49,
+  "odometer": 239665
+ },
+ {
+  "id": "f01285",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-15",
+  "payment": "credit",
+  "amount": 1251.38,
+  "litres": 92.7,
+  "odometer": 281122
+ },
+ {
+  "id": "f01262",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-16",
+  "payment": "credit",
+  "amount": 723.65,
+  "litres": 54.14,
+  "odometer": 199441
+ },
+ {
+  "id": "f01286",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-18",
+  "payment": "credit",
+  "amount": 1288.03,
+  "litres": 90.49,
+  "odometer": 281427
+ },
+ {
+  "id": "f01301",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-18",
+  "payment": "cash",
+  "amount": 853.65,
+  "litres": 65.74,
+  "odometer": 314566
+ },
+ {
+  "id": "f01287",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-19",
+  "payment": "credit",
+  "amount": 927.1,
+  "litres": 71.34,
+  "odometer": 281660
+ },
+ {
+  "id": "f01302",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-19",
+  "payment": "credit",
+  "amount": 813.11,
+  "litres": 57.35,
+  "odometer": 314860
+ },
+ {
+  "id": "f01303",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-19",
+  "payment": "credit",
+  "amount": 674.15,
+  "litres": 49.09,
+  "odometer": 315108
+ },
+ {
+  "id": "f01276",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-20",
+  "payment": "credit",
+  "amount": 892.55,
+  "litres": 64.13,
+  "odometer": 239951
+ },
+ {
+  "id": "f01304",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-20",
+  "payment": "credit",
+  "amount": 751.29,
+  "litres": 56.74,
+  "odometer": 315391
+ },
+ {
+  "id": "f01288",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-21",
+  "payment": "credit",
+  "amount": 1276.55,
+  "litres": 93.42,
+  "odometer": 281943
+ },
+ {
+  "id": "f01305",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-03-21",
+  "payment": "credit",
+  "amount": 824.06,
+  "litres": 59.71,
+  "odometer": 315706
+ },
+ {
+  "id": "f01277",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-23",
+  "payment": "credit",
+  "amount": 767.64,
+  "litres": 59.38,
+  "odometer": 240234
+ },
+ {
+  "id": "f01263",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-03-27",
+  "payment": "cash",
+  "amount": 846.53,
+  "litres": 61.76,
+  "odometer": 199761
+ },
+ {
+  "id": "f01247",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-28",
+  "payment": "credit",
+  "amount": 653.22,
+  "litres": 47.12,
+  "odometer": 158431
+ },
+ {
+  "id": "f01289",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-28",
+  "payment": "cash",
+  "amount": 1421.83,
+  "litres": 101.19,
+  "odometer": 282294
+ },
+ {
+  "id": "f01264",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-30",
+  "payment": "credit",
+  "amount": 609.36,
+  "litres": 46.06,
+  "odometer": 200009
+ },
+ {
+  "id": "f01306",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-03-31",
+  "payment": "cash",
+  "amount": 714.13,
+  "litres": 52.4,
+  "odometer": 315996
+ },
+ {
+  "id": "f01314",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-04-02",
+  "payment": "credit",
+  "amount": 639.17,
+  "litres": 48.65,
+  "odometer": 158708
+ },
+ {
+  "id": "f01315",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-03",
+  "payment": "credit",
+  "amount": 670.52,
+  "litres": 51.6,
+  "odometer": 159016
+ },
+ {
+  "id": "f01330",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-03",
+  "payment": "credit",
+  "amount": 945.61,
+  "litres": 69.66,
+  "odometer": 200363
+ },
+ {
+  "id": "f01361",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-04-05",
+  "payment": "credit",
+  "amount": 1010.14,
+  "litres": 73.04,
+  "odometer": 282519
+ },
+ {
+  "id": "f01331",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-07",
+  "payment": "credit",
+  "amount": 595.66,
+  "litres": 42.56,
+  "odometer": 200591
+ },
+ {
+  "id": "f01375",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-08",
+  "payment": "credit",
+  "amount": 646.64,
+  "litres": 48.12,
+  "odometer": 316258
+ },
+ {
+  "id": "f01362",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-04-09",
+  "payment": "credit",
+  "amount": 1338.39,
+  "litres": 99.44,
+  "odometer": 282859
+ },
+ {
+  "id": "f01348",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-10",
+  "payment": "cash",
+  "amount": 841.3,
+  "litres": 64.59,
+  "odometer": 240526
+ },
+ {
+  "id": "f01376",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-12",
+  "payment": "cash",
+  "amount": 771.28,
+  "litres": 58.03,
+  "odometer": 316577
+ },
+ {
+  "id": "f01349",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-13",
+  "payment": "credit",
+  "amount": 1114.76,
+  "litres": 84.46,
+  "odometer": 240885
+ },
+ {
+  "id": "f01350",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-13",
+  "payment": "credit",
+  "amount": 928.41,
+  "litres": 69.54,
+  "odometer": 241214
+ },
+ {
+  "id": "f01377",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-14",
+  "payment": "credit",
+  "amount": 948.88,
+  "litres": 67.7,
+  "odometer": 316910
+ },
+ {
+  "id": "f01363",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-15",
+  "payment": "credit",
+  "amount": 1252.87,
+  "litres": 89.5,
+  "odometer": 283139
+ },
+ {
+  "id": "f01378",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-15",
+  "payment": "credit",
+  "amount": 1027.64,
+  "litres": 72.13,
+  "odometer": 317260
+ },
+ {
+  "id": "f01351",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-04-17",
+  "payment": "credit",
+  "amount": 813.65,
+  "litres": 58.01,
+  "odometer": 241490
+ },
+ {
+  "id": "f01332",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-20",
+  "payment": "credit",
+  "amount": 655.25,
+  "litres": 47.4,
+  "odometer": 200843
+ },
+ {
+  "id": "f01316",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-21",
+  "payment": "credit",
+  "amount": 749.66,
+  "litres": 56.88,
+  "odometer": 159367
+ },
+ {
+  "id": "f01317",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-04-23",
+  "payment": "cash",
+  "amount": 832.12,
+  "litres": 59.69,
+  "odometer": 159705
+ },
+ {
+  "id": "f01333",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-04-23",
+  "payment": "cash",
+  "amount": 739.13,
+  "litres": 56.84,
+  "odometer": 201159
+ },
+ {
+  "id": "f01318",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-24",
+  "payment": "credit",
+  "amount": 656.56,
+  "litres": 49.46,
+  "odometer": 159986
+ },
+ {
+  "id": "f01364",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-24",
+  "payment": "cash",
+  "amount": 1306.34,
+  "litres": 101.14,
+  "odometer": 283461
+ },
+ {
+  "id": "f01365",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-26",
+  "payment": "credit",
+  "amount": 921.49,
+  "litres": 70.48,
+  "odometer": 283686
+ },
+ {
+  "id": "f01334",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-27",
+  "payment": "credit",
+  "amount": 759.55,
+  "litres": 55.58,
+  "odometer": 201436
+ },
+ {
+  "id": "f01352",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-04-27",
+  "payment": "credit",
+  "amount": 982.65,
+  "litres": 69.38,
+  "odometer": 241822
+ },
+ {
+  "id": "f01379",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-04-28",
+  "payment": "credit",
+  "amount": 808.16,
+  "litres": 57.47,
+  "odometer": 317563
+ },
+ {
+  "id": "f01453",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-01",
+  "payment": "cash",
+  "amount": 1012.59,
+  "litres": 72.01,
+  "odometer": 317909
+ },
+ {
+  "id": "f01388",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-02",
+  "payment": "credit",
+  "amount": 704.38,
+  "litres": 51.82,
+  "odometer": 160273
+ },
+ {
+  "id": "f01405",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-04",
+  "payment": "cash",
+  "amount": 686.71,
+  "litres": 48.4,
+  "odometer": 201705
+ },
+ {
+  "id": "f01435",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-04",
+  "payment": "credit",
+  "amount": 1090.33,
+  "litres": 80.99,
+  "odometer": 283965
+ },
+ {
+  "id": "f01436",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-05",
+  "payment": "cash",
+  "amount": 1041.93,
+  "litres": 74.31,
+  "odometer": 284208
+ },
+ {
+  "id": "f01389",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-08",
+  "payment": "credit",
+  "amount": 513.27,
+  "litres": 38.62,
+  "odometer": 160502
+ },
+ {
+  "id": "f01437",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-08",
+  "payment": "credit",
+  "amount": 1011.47,
+  "litres": 73.37,
+  "odometer": 284431
+ },
+ {
+  "id": "f01423",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-09",
+  "payment": "cash",
+  "amount": 695.19,
+  "litres": 51.76,
+  "odometer": 242049
+ },
+ {
+  "id": "f01454",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-09",
+  "payment": "cash",
+  "amount": 741.9,
+  "litres": 53.27,
+  "odometer": 318162
+ },
+ {
+  "id": "f01406",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-10",
+  "payment": "credit",
+  "amount": 608.35,
+  "litres": 45.08,
+  "odometer": 201935
+ },
+ {
+  "id": "f01407",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-11",
+  "payment": "credit",
+  "amount": 972.34,
+  "litres": 68.12,
+  "odometer": 202276
+ },
+ {
+  "id": "f01424",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-11",
+  "payment": "credit",
+  "amount": 772.99,
+  "litres": 54.16,
+  "odometer": 242294
+ },
+ {
+  "id": "f01408",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-13",
+  "payment": "cash",
+  "amount": 729.74,
+  "litres": 51.73,
+  "odometer": 202562
+ },
+ {
+  "id": "f01390",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-14",
+  "payment": "credit",
+  "amount": 580.37,
+  "litres": 42.28,
+  "odometer": 160735
+ },
+ {
+  "id": "f01455",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-15",
+  "payment": "credit",
+  "amount": 860.79,
+  "litres": 64.98,
+  "odometer": 318477
+ },
+ {
+  "id": "f01438",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-16",
+  "payment": "credit",
+  "amount": 1212.57,
+  "litres": 93.38,
+  "odometer": 284724
+ },
+ {
+  "id": "f01409",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-17",
+  "payment": "credit",
+  "amount": 616.22,
+  "litres": 46.64,
+  "odometer": 202814
+ },
+ {
+  "id": "f01456",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-17",
+  "payment": "credit",
+  "amount": 807.37,
+  "litres": 57.81,
+  "odometer": 318773
+ },
+ {
+  "id": "f01425",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-18",
+  "payment": "credit",
+  "amount": 785.09,
+  "litres": 58.81,
+  "odometer": 242548
+ },
+ {
+  "id": "f01439",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-18",
+  "payment": "credit",
+  "amount": 1066.5,
+  "litres": 81.59,
+  "odometer": 284968
+ },
+ {
+  "id": "f01391",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-19",
+  "payment": "credit",
+  "amount": 623.56,
+  "litres": 46.67,
+  "odometer": 160999
+ },
+ {
+  "id": "f01457",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-19",
+  "payment": "cash",
+  "amount": 600.89,
+  "litres": 45.03,
+  "odometer": 319019
+ },
+ {
+  "id": "f01458",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-20",
+  "payment": "credit",
+  "amount": 690.49,
+  "litres": 50.46,
+  "odometer": 319259
+ },
+ {
+  "id": "f01410",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-05-22",
+  "payment": "credit",
+  "amount": 536.6,
+  "litres": 40.81,
+  "odometer": 203037
+ },
+ {
+  "id": "f01392",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-23",
+  "payment": "credit",
+  "amount": 581.06,
+  "litres": 43.73,
+  "odometer": 161259
+ },
+ {
+  "id": "f01440",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-23",
+  "payment": "credit",
+  "amount": 1155.07,
+  "litres": 89.38,
+  "odometer": 285278
+ },
+ {
+  "id": "f01411",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-24",
+  "payment": "cash",
+  "amount": 695.95,
+  "litres": 53.46,
+  "odometer": 203316
+ },
+ {
+  "id": "f01426",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-27",
+  "payment": "credit",
+  "amount": 1038.7,
+  "litres": 74.18,
+  "odometer": 242865
+ },
+ {
+  "id": "f01459",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-28",
+  "payment": "cash",
+  "amount": 832.19,
+  "litres": 61.1,
+  "odometer": 319550
+ },
+ {
+  "id": "f01427",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-05-31",
+  "payment": "cash",
+  "amount": 970.28,
+  "litres": 75.08,
+  "odometer": 243223
+ },
+ {
+  "id": "f01441",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-05-31",
+  "payment": "credit",
+  "amount": 1556.32,
+  "litres": 110.63,
+  "odometer": 285622
+ },
+ {
+  "id": "f01488",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-01",
+  "payment": "credit",
+  "amount": 813.12,
+  "litres": 62.09,
+  "odometer": 203648
+ },
+ {
+  "id": "f01502",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-01",
+  "payment": "credit",
+  "amount": 713.08,
+  "litres": 52.99,
+  "odometer": 243460
+ },
+ {
+  "id": "f01533",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-01",
+  "payment": "credit",
+  "amount": 720.29,
+  "litres": 55.37,
+  "odometer": 319838
+ },
+ {
+  "id": "f01534",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-02",
+  "payment": "credit",
+  "amount": 666.39,
+  "litres": 48.92,
+  "odometer": 320095
+ },
+ {
+  "id": "f01503",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-03",
+  "payment": "credit",
+  "amount": 1102.05,
+  "litres": 79.72,
+  "odometer": 243799
+ },
+ {
+  "id": "f01471",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-05",
+  "payment": "credit",
+  "amount": 868.39,
+  "litres": 62.51,
+  "odometer": 161611
+ },
+ {
+  "id": "f01504",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-05",
+  "payment": "credit",
+  "amount": 976.16,
+  "litres": 75.48,
+  "odometer": 244147
+ },
+ {
+  "id": "f01489",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-06",
+  "payment": "cash",
+  "amount": 656.69,
+  "litres": 49.26,
+  "odometer": 203910
+ },
+ {
+  "id": "f01514",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-06",
+  "payment": "cash",
+  "amount": 1021.26,
+  "litres": 78.55,
+  "odometer": 285859
+ },
+ {
+  "id": "f01472",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-07",
+  "payment": "cash",
+  "amount": 801.83,
+  "litres": 57.13,
+  "odometer": 161939
+ },
+ {
+  "id": "f01505",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-07",
+  "payment": "credit",
+  "amount": 747.23,
+  "litres": 57.03,
+  "odometer": 244399
+ },
+ {
+  "id": "f01515",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-07",
+  "payment": "credit",
+  "amount": 1049.76,
+  "litres": 80.5,
+  "odometer": 286118
+ },
+ {
+  "id": "f01473",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-08",
+  "payment": "cash",
+  "amount": 679.36,
+  "litres": 52.31,
+  "odometer": 162248
+ },
+ {
+  "id": "f01506",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-08",
+  "payment": "credit",
+  "amount": 1099.53,
+  "litres": 77.44,
+  "odometer": 244726
+ },
+ {
+  "id": "f01516",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-09",
+  "payment": "credit",
+  "amount": 1077.81,
+  "litres": 80.31,
+  "odometer": 286364
+ },
+ {
+  "id": "f01490",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-10",
+  "payment": "credit",
+  "amount": 810.84,
+  "litres": 60.31,
+  "odometer": 204242
+ },
+ {
+  "id": "f01491",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-12",
+  "payment": "credit",
+  "amount": 697.86,
+  "litres": 54.02,
+  "odometer": 204543
+ },
+ {
+  "id": "f01474",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-14",
+  "payment": "cash",
+  "amount": 795.45,
+  "litres": 58.26,
+  "odometer": 162579
+ },
+ {
+  "id": "f01535",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-15",
+  "payment": "credit",
+  "amount": 804.34,
+  "litres": 57.59,
+  "odometer": 320415
+ },
+ {
+  "id": "f01536",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-17",
+  "payment": "cash",
+  "amount": 934.47,
+  "litres": 65.81,
+  "odometer": 320751
+ },
+ {
+  "id": "f01517",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-19",
+  "payment": "credit",
+  "amount": 1605.16,
+  "litres": 113.98,
+  "odometer": 286717
+ },
+ {
+  "id": "f01537",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-19",
+  "payment": "credit",
+  "amount": 662.75,
+  "litres": 50.52,
+  "odometer": 321024
+ },
+ {
+  "id": "f01475",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-20",
+  "payment": "credit",
+  "amount": 588.65,
+  "litres": 44.97,
+  "odometer": 162860
+ },
+ {
+  "id": "f01518",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-22",
+  "payment": "credit",
+  "amount": 903.52,
+  "litres": 68.21,
+  "odometer": 286937
+ },
+ {
+  "id": "f01476",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-23",
+  "payment": "credit",
+  "amount": 611.77,
+  "litres": 47.06,
+  "odometer": 163143
+ },
+ {
+  "id": "f01519",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-23",
+  "payment": "cash",
+  "amount": 1252.23,
+  "litres": 93.87,
+  "odometer": 287225
+ },
+ {
+  "id": "f01492",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-24",
+  "payment": "credit",
+  "amount": 766.37,
+  "litres": 54.08,
+  "odometer": 204828
+ },
+ {
+  "id": "f01507",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-27",
+  "payment": "cash",
+  "amount": 1037.25,
+  "litres": 79.64,
+  "odometer": 245067
+ },
+ {
+  "id": "f01520",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-06-27",
+  "payment": "cash",
+  "amount": 1006.8,
+  "litres": 72.34,
+  "odometer": 287446
+ },
+ {
+  "id": "f01493",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-06-29",
+  "payment": "credit",
+  "amount": 604.85,
+  "litres": 45.68,
+  "odometer": 205049
+ },
+ {
+  "id": "f01477",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-30",
+  "payment": "cash",
+  "amount": 708.95,
+  "litres": 50.89,
+  "odometer": 163423
+ },
+ {
+  "id": "f01538",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-06-30",
+  "payment": "cash",
+  "amount": 973.58,
+  "litres": 71.57,
+  "odometer": 321378
+ },
+ {
+  "id": "f01583",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-02",
+  "payment": "cash",
+  "amount": 889.19,
+  "litres": 63.86,
+  "odometer": 245355
+ },
+ {
+  "id": "f01550",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-04",
+  "payment": "cash",
+  "amount": 745.12,
+  "litres": 54.96,
+  "odometer": 163774
+ },
+ {
+  "id": "f01584",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-06",
+  "payment": "credit",
+  "amount": 667.4,
+  "litres": 50.82,
+  "odometer": 245603
+ },
+ {
+  "id": "f01613",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-06",
+  "payment": "credit",
+  "amount": 893.06,
+  "litres": 63.89,
+  "odometer": 321714
+ },
+ {
+  "id": "f01614",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-06",
+  "payment": "cash",
+  "amount": 623.17,
+  "litres": 45.3,
+  "odometer": 321950
+ },
+ {
+  "id": "f01598",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-09",
+  "payment": "credit",
+  "amount": 1223.18,
+  "litres": 88.77,
+  "odometer": 287716
+ },
+ {
+  "id": "f01585",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-10",
+  "payment": "cash",
+  "amount": 757.13,
+  "litres": 54.72,
+  "odometer": 245834
+ },
+ {
+  "id": "f01599",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-10",
+  "payment": "cash",
+  "amount": 1543.11,
+  "litres": 116.58,
+  "odometer": 288067
+ },
+ {
+  "id": "f01551",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-11",
+  "payment": "cash",
+  "amount": 514.9,
+  "litres": 36.74,
+  "odometer": 163997
+ },
+ {
+  "id": "f01566",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-11",
+  "payment": "cash",
+  "amount": 843.56,
+  "litres": 62.99,
+  "odometer": 205364
+ },
+ {
+  "id": "f01567",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-11",
+  "payment": "credit",
+  "amount": 782.53,
+  "litres": 59.3,
+  "odometer": 205668
+ },
+ {
+  "id": "f01552",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-12",
+  "payment": "credit",
+  "amount": 753.63,
+  "litres": 54.16,
+  "odometer": 164333
+ },
+ {
+  "id": "f01600",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-12",
+  "payment": "credit",
+  "amount": 1482.12,
+  "litres": 106.6,
+  "odometer": 288421
+ },
+ {
+  "id": "f01553",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-14",
+  "payment": "cash",
+  "amount": 568.44,
+  "litres": 40.44,
+  "odometer": 164576
+ },
+ {
+  "id": "f01586",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-15",
+  "payment": "cash",
+  "amount": 1022.43,
+  "litres": 73.28,
+  "odometer": 246192
+ },
+ {
+  "id": "f01568",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-16",
+  "payment": "cash",
+  "amount": 615.53,
+  "litres": 45.99,
+  "odometer": 205904
+ },
+ {
+  "id": "f01569",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-16",
+  "payment": "credit",
+  "amount": 788.13,
+  "litres": 60.53,
+  "odometer": 206210
+ },
+ {
+  "id": "f01570",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-17",
+  "payment": "credit",
+  "amount": 895.78,
+  "litres": 66.42,
+  "odometer": 206551
+ },
+ {
+  "id": "f01601",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-17",
+  "payment": "credit",
+  "amount": 1396.22,
+  "litres": 105.45,
+  "odometer": 288748
+ },
+ {
+  "id": "f01615",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-07-17",
+  "payment": "cash",
+  "amount": 758.1,
+  "litres": 56.46,
+  "odometer": 322242
+ },
+ {
+  "id": "f01587",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-18",
+  "payment": "credit",
+  "amount": 833.28,
+  "litres": 62.12,
+  "odometer": 246495
+ },
+ {
+  "id": "f01616",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-18",
+  "payment": "cash",
+  "amount": 780.19,
+  "litres": 55.02,
+  "odometer": 322530
+ },
+ {
+  "id": "f01588",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-19",
+  "payment": "credit",
+  "amount": 798.29,
+  "litres": 59.17,
+  "odometer": 246776
+ },
+ {
+  "id": "f01589",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-19",
+  "payment": "credit",
+  "amount": 975.97,
+  "litres": 68.75,
+  "odometer": 247098
+ },
+ {
+  "id": "f01554",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-21",
+  "payment": "credit",
+  "amount": 886.95,
+  "litres": 65.61,
+  "odometer": 164936
+ },
+ {
+  "id": "f01571",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-21",
+  "payment": "credit",
+  "amount": 704.07,
+  "litres": 50.73,
+  "odometer": 206817
+ },
+ {
+  "id": "f01617",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-21",
+  "payment": "credit",
+  "amount": 902.43,
+  "litres": 64.42,
+  "odometer": 322862
+ },
+ {
+  "id": "f01572",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-27",
+  "payment": "cash",
+  "amount": 701.97,
+  "litres": 53.52,
+  "odometer": 207103
+ },
+ {
+  "id": "f01602",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-07-28",
+  "payment": "credit",
+  "amount": 1507.74,
+  "litres": 106.04,
+  "odometer": 289067
+ },
+ {
+  "id": "f01555",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-07-29",
+  "payment": "credit",
+  "amount": 690.04,
+  "litres": 48.9,
+  "odometer": 165236
+ },
+ {
+  "id": "f01631",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-01",
+  "payment": "credit",
+  "amount": 609.96,
+  "litres": 45.55,
+  "odometer": 165519
+ },
+ {
+  "id": "f01660",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-01",
+  "payment": "credit",
+  "amount": 753.95,
+  "litres": 56.92,
+  "odometer": 247370
+ },
+ {
+  "id": "f01632",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-02",
+  "payment": "credit",
+  "amount": 856.54,
+  "litres": 60.31,
+  "odometer": 165874
+ },
+ {
+  "id": "f01671",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-02",
+  "payment": "credit",
+  "amount": 1147.75,
+  "litres": 86.15,
+  "odometer": 289347
+ },
+ {
+  "id": "f01688",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-04",
+  "payment": "credit",
+  "amount": 787.03,
+  "litres": 58.14,
+  "odometer": 323165
+ },
+ {
+  "id": "f01661",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-08-05",
+  "payment": "credit",
+  "amount": 915.04,
+  "litres": 68.9,
+  "odometer": 247669
+ },
+ {
+  "id": "f01689",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-06",
+  "payment": "credit",
+  "amount": 893.92,
+  "litres": 68.49,
+  "odometer": 323498
+ },
+ {
+  "id": "f01645",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-08-07",
+  "payment": "credit",
+  "amount": 757.78,
+  "litres": 54.87,
+  "odometer": 207390
+ },
+ {
+  "id": "f01690",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-08-07",
+  "payment": "credit",
+  "amount": 695.63,
+  "litres": 49.56,
+  "odometer": 323771
+ },
+ {
+  "id": "f01672",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-09",
+  "payment": "credit",
+  "amount": 1181.85,
+  "litres": 88.65,
+  "odometer": 289619
+ },
+ {
+  "id": "f01646",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-08-11",
+  "payment": "credit",
+  "amount": 581.91,
+  "litres": 42.65,
+  "odometer": 207620
+ },
+ {
+  "id": "f01673",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-11",
+  "payment": "credit",
+  "amount": 1637.08,
+  "litres": 115.53,
+  "odometer": 289978
+ },
+ {
+  "id": "f01662",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-12",
+  "payment": "credit",
+  "amount": 841.19,
+  "litres": 61.97,
+  "odometer": 247962
+ },
+ {
+  "id": "f01691",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-12",
+  "payment": "credit",
+  "amount": 935.49,
+  "litres": 67.07,
+  "odometer": 324113
+ },
+ {
+  "id": "f01674",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-13",
+  "payment": "credit",
+  "amount": 1393.09,
+  "litres": 106.12,
+  "odometer": 290311
+ },
+ {
+  "id": "f01692",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-18",
+  "payment": "credit",
+  "amount": 788.82,
+  "litres": 56.88,
+  "odometer": 324417
+ },
+ {
+  "id": "f01633",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-19",
+  "payment": "cash",
+  "amount": 879.16,
+  "litres": 62.17,
+  "odometer": 166218
+ },
+ {
+  "id": "f01647",
+  "truck": "7728h33",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-19",
+  "payment": "credit",
+  "amount": 555.63,
+  "litres": 42.42,
+  "odometer": 203854
+ },
+ {
+  "id": "f01634",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-20",
+  "payment": "credit",
+  "amount": 714.19,
+  "litres": 54.63,
+  "odometer": 166547
+ },
+ {
+  "id": "f01635",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-08-22",
+  "payment": "credit",
+  "amount": 581.7,
+  "litres": 41.77,
+  "odometer": 166801
+ },
+ {
+  "id": "f01675",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-22",
+  "payment": "cash",
+  "amount": 1183.07,
+  "litres": 88.36,
+  "odometer": 290586
+ },
+ {
+  "id": "f01663",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-23",
+  "payment": "cash",
+  "amount": 1055.4,
+  "litres": 75.88,
+  "odometer": 248305
+ },
+ {
+  "id": "f01664",
+  "truck": "15062b7",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-23",
+  "payment": "credit",
+  "amount": 853.64,
+  "litres": 61.03,
+  "odometer": 248571
+ },
+ {
+  "id": "f01648",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-08-25",
+  "payment": "credit",
+  "amount": 588.55,
+  "litres": 42.26,
+  "odometer": 208086
+ },
+ {
+  "id": "f01649",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-08-28",
+  "payment": "credit",
+  "amount": 650.36,
+  "litres": 46.06,
+  "odometer": 208339
+ },
+ {
+  "id": "f01636",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-30",
+  "payment": "cash",
+  "amount": 859.43,
+  "litres": 62.5,
+  "odometer": 167150
+ },
+ {
+  "id": "f01637",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-08-31",
+  "payment": "cash",
+  "amount": 672.5,
+  "litres": 50.44,
+  "odometer": 167451
+ },
+ {
+  "id": "f01704",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-02",
+  "payment": "cash",
+  "amount": 653.92,
+  "litres": 46.58,
+  "odometer": 167748
+ },
+ {
+  "id": "f01705",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-04",
+  "payment": "credit",
+  "amount": 529.36,
+  "litres": 40.7,
+  "odometer": 167996
+ },
+ {
+  "id": "f01735",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-04",
+  "payment": "cash",
+  "amount": 961.28,
+  "litres": 68.22,
+  "odometer": 248882
+ },
+ {
+  "id": "f01745",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-04",
+  "payment": "credit",
+  "amount": 1001.05,
+  "litres": 70.19,
+  "odometer": 290829
+ },
+ {
+  "id": "f01720",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-05",
+  "payment": "credit",
+  "amount": 901.79,
+  "litres": 65.84,
+  "odometer": 208668
+ },
+ {
+  "id": "f01736",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-05",
+  "payment": "cash",
+  "amount": 853.47,
+  "litres": 61.22,
+  "odometer": 249156
+ },
+ {
+  "id": "f01706",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-07",
+  "payment": "cash",
+  "amount": 637.4,
+  "litres": 47.76,
+  "odometer": 168286
+ },
+ {
+  "id": "f01737",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-08",
+  "payment": "credit",
+  "amount": 919.2,
+  "litres": 70.73,
+  "odometer": 249496
+ },
+ {
+  "id": "f01764",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-08",
+  "payment": "credit",
+  "amount": 735.37,
+  "litres": 51.58,
+  "odometer": 324676
+ },
+ {
+  "id": "f01746",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-10",
+  "payment": "credit",
+  "amount": 1412.58,
+  "litres": 102.21,
+  "odometer": 291153
+ },
+ {
+  "id": "f01747",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-10",
+  "payment": "credit",
+  "amount": 1160.42,
+  "litres": 82.54,
+  "odometer": 291407
+ },
+ {
+  "id": "f01765",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-10",
+  "payment": "credit",
+  "amount": 610.89,
+  "litres": 44.95,
+  "odometer": 324912
+ },
+ {
+  "id": "f01721",
+  "truck": "7728h33",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-11",
+  "payment": "credit",
+  "amount": 591.67,
+  "litres": 45.2,
+  "odometer": 208901
+ },
+ {
+  "id": "f01748",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-11",
+  "payment": "cash",
+  "amount": 1172.22,
+  "litres": 84.51,
+  "odometer": 291675
+ },
+ {
+  "id": "f01749",
+  "truck": "908e41",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-11",
+  "payment": "credit",
+  "amount": 1143.77,
+  "litres": 87.95,
+  "odometer": 291939
+ },
+ {
+  "id": "f01722",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-12",
+  "payment": "cash",
+  "amount": 659.18,
+  "litres": 46.44,
+  "odometer": 209153
+ },
+ {
+  "id": "f01723",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-12",
+  "payment": "credit",
+  "amount": 605.38,
+  "litres": 43.35,
+  "odometer": 209373
+ },
+ {
+  "id": "f01738",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-12",
+  "payment": "credit",
+  "amount": 686.11,
+  "litres": 48.72,
+  "odometer": 249718
+ },
+ {
+  "id": "f01766",
+  "truck": "22417w18",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-16",
+  "payment": "credit",
+  "amount": 867.04,
+  "litres": 65,
+  "odometer": 325255
+ },
+ {
+  "id": "f01767",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-18",
+  "payment": "credit",
+  "amount": 630.15,
+  "litres": 48.16,
+  "odometer": 325501
+ },
+ {
+  "id": "f01768",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-18",
+  "payment": "credit",
+  "amount": 702.73,
+  "litres": 53.17,
+  "odometer": 325783
+ },
+ {
+  "id": "f01707",
+  "truck": "3104d12",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-21",
+  "payment": "credit",
+  "amount": 536.89,
+  "litres": 38.87,
+  "odometer": 168530
+ },
+ {
+  "id": "f01724",
+  "truck": "7728h33",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-21",
+  "payment": "credit",
+  "amount": 774.17,
+  "litres": 56.01,
+  "odometer": 209683
+ },
+ {
+  "id": "f01708",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-22",
+  "payment": "cash",
+  "amount": 529.99,
+  "litres": 38.94,
+  "odometer": 168750
+ },
+ {
+  "id": "f01709",
+  "truck": "3104d12",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-22",
+  "payment": "credit",
+  "amount": 868.34,
+  "litres": 62.39,
+  "odometer": 169103
+ },
+ {
+  "id": "f01750",
+  "truck": "908e41",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-22",
+  "payment": "cash",
+  "amount": 1251.52,
+  "litres": 94.5,
+  "odometer": 292270
+ },
+ {
+  "id": "f01739",
+  "truck": "15062b7",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-23",
+  "payment": "cash",
+  "amount": 968.38,
+  "litres": 71.56,
+  "odometer": 250052
+ },
+ {
+  "id": "f01740",
+  "truck": "15062b7",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-24",
+  "payment": "credit",
+  "amount": 705.13,
+  "litres": 53.53,
+  "odometer": 250304
+ },
+ {
+  "id": "f01751",
+  "truck": "908e41",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-24",
+  "payment": "credit",
+  "amount": 1174.99,
+  "litres": 89.04,
+  "odometer": 292551
+ },
+ {
+  "id": "f01769",
+  "truck": "22417w18",
+  "station": "Horizon Fuel, Route de Fes",
+  "date": "2026-09-24",
+  "payment": "credit",
+  "amount": 679.13,
+  "litres": 48.25,
+  "odometer": 326030
+ },
+ {
+  "id": "f01710",
+  "truck": "3104d12",
+  "station": "Oasis Station, N13",
+  "date": "2026-09-25",
+  "payment": "credit",
+  "amount": 714.49,
+  "litres": 53.77,
+  "odometer": 169436
+ },
+ {
+  "id": "f01770",
+  "truck": "22417w18",
+  "station": "Petro Saiss, Ring Road",
+  "date": "2026-09-27",
+  "payment": "credit",
+  "amount": 851.42,
+  "litres": 62.05,
+  "odometer": 326349
+ }
+]

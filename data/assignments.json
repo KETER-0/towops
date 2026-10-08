@@ -1,0 +1,44 @@
+[
+ {
+  "id": "as00001",
+  "truck": "3104d12",
+  "driver": "Hamza Rami",
+  "salary": 5200,
+  "from": "2025-10"
+ },
+ {
+  "id": "as00002",
+  "truck": "7728h33",
+  "driver": "Omar Lahrichi",
+  "salary": 4800,
+  "from": "2025-10"
+ },
+ {
+  "id": "as00003",
+  "truck": "7728h33",
+  "driver": "Bilal Tazi",
+  "salary": 5000,
+  "from": "2026-05"
+ },
+ {
+  "id": "as00004",
+  "truck": "15062b7",
+  "driver": "Anas Mernissi",
+  "salary": 5400,
+  "from": "2025-10"
+ },
+ {
+  "id": "as00005",
+  "truck": "908e41",
+  "driver": "Yassine Kabbaj",
+  "salary": 6200,
+  "from": "2025-10"
+ },
+ {
+  "id": "as00006",
+  "truck": "22417w18",
+  "driver": "Reda Fassi",
+  "salary": 4600,
+  "from": "2026-02"
+ }
+]
