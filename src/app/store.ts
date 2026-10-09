@@ -2,6 +2,9 @@
 // changes is kept in their own browser only (localStorage) until they press
 // "Reset demo". Nothing is ever sent anywhere.
 import type { Dataset } from '../model/types.ts';
+import { DEMO_TODAY } from '../model/types.ts';
+import { DATASET_KEYS } from '../model/keys.ts';
+import type { Log } from '../logic/journal.ts';
 import company from '../../data/company.json';
 import insurers from '../../data/insurers.json';
 import services from '../../data/services.json';
@@ -14,17 +17,25 @@ import clientPayments from '../../data/clientPayments.json';
 import charges from '../../data/charges.json';
 import fuelFills from '../../data/fuelFills.json';
 import stationPayments from '../../data/stationPayments.json';
+import users from '../../data/users.json';
+import journal from '../../data/journal.json';
 
-const KEY = 'towops-demo-v1';
+// v2: the dataset gained users and journal; data saved by v1 lacks them and is ignored.
+const KEY = 'towops-demo-v2';
+const ACTOR_KEY = 'towops-demo-actor';
 
 const original = (): Dataset => structuredClone({
-  company, insurers, services, trucks, assignments, missions, cashJobs, creditJobs, clientPayments, charges, fuelFills, stationPayments,
+  company, insurers, services, trucks, assignments, missions, cashJobs, creditJobs, clientPayments, charges, fuelFills, stationPayments, users, journal,
 } as Dataset);
 
 function load(): Dataset {
   try {
     const saved = localStorage.getItem(KEY);
-    if (saved) return JSON.parse(saved) as Dataset;
+    if (saved) {
+      const d = JSON.parse(saved) as Dataset;
+      // Damaged or partial: start from the original rather than draw a broken page with no way out.
+      if (DATASET_KEYS.every((k) => k in d) && d.users.length) return d;
+    }
   } catch {
     // Private window or blocked storage: the demo still works, it just forgets on reload.
   }
@@ -36,6 +47,29 @@ const listeners = new Set<() => void>();
 
 export const getData = (): Dataset => data;
 
+/** Who the visitor acts as. Read from storage, so it is checked against the staff list. */
+let actor = ((): string => {
+  try {
+    const saved = localStorage.getItem(ACTOR_KEY);
+    if (saved && data.users.some((u) => u.id === saved)) return saved;
+  } catch {
+    // same as load()
+  }
+  return data.users[0]!.id;
+})();
+
+export const getActor = (): string => actor;
+
+export function setActor(id: string): void {
+  if (!data.users.some((u) => u.id === id)) return;
+  actor = id;
+  try {
+    localStorage.setItem(ACTOR_KEY, id);
+  } catch {
+    // kept in memory only
+  }
+}
+
 export const isModified = (): boolean => {
   try {
     return localStorage.getItem(KEY) !== null;
@@ -44,9 +78,17 @@ export const isModified = (): boolean => {
   }
 };
 
-/** Apply a change, keep it in this browser, and redraw. */
-export function update(change: (d: Dataset) => void): void {
-  change(data);
+const clock = (): string => new Date().toTimeString().slice(0, 5);
+
+/**
+ * Apply a change, journal it under the current user, keep it in this browser,
+ * and redraw. The change must return what it did: no change goes unjournaled.
+ */
+export function update(change: (d: Dataset) => Log | Log[]): void {
+  const logs = [change(data)].flat();
+  // The demo's clock stops on its fixed "today"; the time of day is real.
+  const at = `${DEMO_TODAY}T${clock()}`;
+  for (const l of logs) data.journal.push({ id: newId('j'), at, user: actor, ...l });
   try {
     localStorage.setItem(KEY, JSON.stringify(data));
   } catch {

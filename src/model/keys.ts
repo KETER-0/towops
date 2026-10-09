@@ -4,4 +4,5 @@ import type { Dataset } from './types.ts';
 export const DATASET_KEYS: (keyof Dataset)[] = [
   'company', 'insurers', 'services', 'trucks', 'assignments', 'missions',
   'cashJobs', 'creditJobs', 'clientPayments', 'charges', 'fuelFills', 'stationPayments',
+  'users', 'journal',
 ];

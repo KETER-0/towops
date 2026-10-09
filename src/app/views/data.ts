@@ -35,7 +35,7 @@ export const data: View = {
     const value = d[key];
     const rows = (Array.isArray(value) ? value : [value]) as unknown as Record<string, unknown>[];
 
-    const nav = (['Reference', 'Billing', 'Fleet'] as const).map((side) => `
+    const nav = (['Reference', 'Billing', 'Fleet', 'System'] as const).map((side) => `
       <div class="data-group"><h3>${side}</h3>${SCHEMA.filter((t) => t.side === side).map((t) => {
         const v = d[t.key];
         const n = Array.isArray(v) ? v.length : 1;

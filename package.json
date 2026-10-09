@@ -13,7 +13,8 @@
     "docs:model": "tsx scripts/generate-model-doc.ts",
     "samples": "tsx scripts/make-samples.ts",
     "test": "tsx --test tests/*.test.ts",
-    "smoke": "tsx tests/smoke.ts"
+    "smoke": "tsx tests/smoke.ts",
+    "deploy": "npm run build && npx --yes wrangler@4.149.0 pages deploy dist --project-name towops-demo --branch main"
   },
   "dependencies": {
     "@fontsource/barlow": "^5.3.0",

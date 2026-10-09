@@ -23,6 +23,7 @@ erDiagram
   TRUCKS ||--o{ FUEL_FILLS : "burns"
   CREDIT_JOBS ||--o{ CLIENT_PAYMENTS : "settled by (per client)"
   FUEL_FILLS ||--o{ STATION_PAYMENTS : "settled by (per station)"
+  USERS ||--o{ JOURNAL : "signs"
 ```
 
 ## Rules that hold the model together
@@ -33,6 +34,7 @@ erDiagram
 4. **A shared tow splits by kilometres.** Extra trucks get the per-km tow line in proportion to the km they drove; truck 1 keeps the rest, so the parts always add up to the mission total.
 5. **Fuel is measured full tank to full tank.** L/100 km = litres / (odometer - previous odometer) x 100. A reading that goes backwards is flagged and skipped.
 6. **Debts are taken minus paid, per name**, with names matched ignoring case and spacing.
+7. **Every change is journaled.** The one function that changes data requires the change to describe itself, and signs it with the person acting. Journal lines are only ever added.
 
 ## Tables
 
@@ -410,6 +412,56 @@ Payments that settle fuel taken on credit. 33 rows in the demo.
   "station": "Oasis Station, N13",
   "date": "2025-11-06",
   "amount": 6100
+}
+```
+
+</details>
+
+### Staff `data/users.json`
+
+The office staff who sign every change. The demo has no login: the visitor picks who they act as. 4 rows in the demo.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | text | Short identifier, the link from a journal line |
+| `name` | text | Full name |
+| `role` | text | Job: dispatcher, accountant, manager |
+
+<details><summary>Example row</summary>
+
+```json
+{
+  "id": "u1",
+  "name": "Nora Skalli",
+  "role": "Dispatcher"
+}
+```
+
+</details>
+
+### Journal `data/journal.json`
+
+Every change, who made it and when. Written by the app on each change, never typed by hand; lines are only ever added. 2402 rows in the demo.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `id` | text | Row id |
+| `at` | date and time | When, as YYYY-MM-DDTHH:MM |
+| `user` | staff id | Who made the change |
+| `action` | mission.created \| mission.photo \| invoice.created \| invoice.paid \| payment.client \| payment.station \| fuel.added | Kind of change |
+| `text` | text | What happened, in words, frozen when written |
+| `link` | route | Screen the change concerns, e.g. missions/m00012 |
+
+<details><summary>Example row</summary>
+
+```json
+{
+  "id": "j00001",
+  "at": "2025-10-01T10:05",
+  "user": "u1",
+  "action": "mission.created",
+  "text": "Created mission KE-25-10312 for Kestrel Travel Assist, 550.00 MAD",
+  "link": "missions/m00031"
 }
 ```
 

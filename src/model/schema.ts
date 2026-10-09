@@ -12,7 +12,7 @@ export interface FieldDoc {
 export interface TableDoc {
   key: keyof Dataset;
   title: string;
-  side: 'Reference' | 'Billing' | 'Fleet';
+  side: 'Reference' | 'Billing' | 'Fleet' | 'System';
   desc: string;
   fields: FieldDoc[];
 }
@@ -176,6 +176,27 @@ export const SCHEMA: TableDoc[] = [
       { name: 'amount', type: 'MAD', desc: 'Amount paid' },
     ],
   },
+  {
+    key: 'users', title: 'Staff', side: 'System',
+    desc: 'The office staff who sign every change. The demo has no login: the visitor picks who they act as.',
+    fields: [
+      { name: 'id', type: 'text', desc: 'Short identifier, the link from a journal line' },
+      { name: 'name', type: 'text', desc: 'Full name' },
+      { name: 'role', type: 'text', desc: 'Job: dispatcher, accountant, manager' },
+    ],
+  },
+  {
+    key: 'journal', title: 'Journal', side: 'System',
+    desc: 'Every change, who made it and when. Written by the app on each change, never typed by hand; lines are only ever added.',
+    fields: [
+      { name: 'id', type: 'text', desc: 'Row id' },
+      { name: 'at', type: 'date and time', desc: 'When, as YYYY-MM-DDTHH:MM' },
+      { name: 'user', type: 'staff id', desc: 'Who made the change' },
+      { name: 'action', type: 'mission.created | mission.photo | invoice.created | invoice.paid | payment.client | payment.station | fuel.added', desc: 'Kind of change' },
+      { name: 'text', type: 'text', desc: 'What happened, in words, frozen when written' },
+      { name: 'link', type: 'route', desc: 'Screen the change concerns, e.g. missions/m00012' },
+    ],
+  },
 ];
 
 /** How the tables connect, for the diagram. [from, to, label] */
@@ -190,4 +211,5 @@ export const RELATIONS: [keyof Dataset, keyof Dataset, string][] = [
   ['trucks', 'fuelFills', 'burns'],
   ['creditJobs', 'clientPayments', 'settled by (per client)'],
   ['fuelFills', 'stationPayments', 'settled by (per station)'],
+  ['users', 'journal', 'signs'],
 ];

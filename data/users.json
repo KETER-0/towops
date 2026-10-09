@@ -1,0 +1,22 @@
+[
+ {
+  "id": "u1",
+  "name": "Nora Skalli",
+  "role": "Dispatcher"
+ },
+ {
+  "id": "u2",
+  "name": "Khalid Mouline",
+  "role": "Night dispatcher"
+ },
+ {
+  "id": "u3",
+  "name": "Yassir Bouzidi",
+  "role": "Accountant"
+ },
+ {
+  "id": "u4",
+  "name": "Hind Lazrak",
+  "role": "Manager"
+ }
+]
